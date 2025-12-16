@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import CourseViewer from '@/app/components/course/CourseViewer'
 import type { Course } from '@/app/types/course'
+import { getSampleCourseBySlug } from '@/app/lib/art/sampleCourses'
 
 export default function CoursePage() {
   const params = useParams()
@@ -12,6 +13,14 @@ export default function CoursePage() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // Check for sample courses first
+    const sampleCourse = getSampleCourseBySlug(slug)
+    if (sampleCourse) {
+      setCourse(sampleCourse)
+      setLoading(false)
+      return
+    }
+
     // In a real app, fetch course by slug
     // For now, we'll generate a course if it's the Matisse course
     if (slug === 'matisse-red-studio-and-its-influence') {
