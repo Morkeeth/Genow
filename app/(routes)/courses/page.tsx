@@ -5,9 +5,10 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { fadeInUp, staggerContainer } from '@/app/lib/utils/animations'
 import type { Course } from '@/app/types/course'
+import { getAllSampleCourses } from '@/app/lib/art/sampleCourses'
 
 export default function CoursesPage() {
-  const [courses, setCourses] = useState<Course[]>([])
+  const [courses, setCourses] = useState<Course[]>(getAllSampleCourses())
   const [isGenerating, setIsGenerating] = useState(false)
   const [generationParams, setGenerationParams] = useState({
     topic: '',
