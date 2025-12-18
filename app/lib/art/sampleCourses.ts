@@ -17,3 +17,4 @@ export function getAllSampleCourses(): Course[] {
   return [sampleCourse]
 }
 
+
