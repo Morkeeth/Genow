@@ -77,16 +77,27 @@ export default function ArtworkCarousel({ artworks, onArtworkClick }: ArtworkCar
 
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
-      {/* Artwork Image - Full Screen */}
+      {/* Artwork Image - Full Screen with Swipe */}
       <AnimatePresence mode="wait">
         <motion.div
           key={currentArtwork.id}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, x: 300 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -300 }}
+          transition={{ duration: 0.4, ease: "easeInOut" }}
           className="absolute inset-0"
-          style={{ opacity: 1 }}
+          drag="x"
+          dragConstraints={{ left: 0, right: 0 }}
+          dragElastic={0.3}
+          onDragEnd={(e, { offset, velocity }) => {
+            const swipe = Math.abs(offset.x) * Math.sign(velocity.x)
+            
+            if (swipe < -50) {
+              handleNext()
+            } else if (swipe > 50) {
+              handlePrev()
+            }
+          }}
         >
           {currentArtwork.imageUrl ? (
             <Image
