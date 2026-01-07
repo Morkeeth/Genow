@@ -11,8 +11,15 @@ export default function Home() {
 
   const handleArtworkClick = (artwork: Artwork) => {
     // Navigate to story view for this artwork
-    // For now, navigate to a story page if it exists
     router.push(`/story/${artwork.id}`)
+  }
+
+  if (artworks.length === 0) {
+    return (
+      <main className="h-screen w-screen overflow-hidden bg-black flex items-center justify-center text-white">
+        <p>Loading artworks...</p>
+      </main>
+    )
   }
 
   return (

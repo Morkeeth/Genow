@@ -30,8 +30,9 @@ export default function ArtworkCarousel({ artworks, onArtworkClick }: ArtworkCar
   }, [artworks])
 
   useEffect(() => {
-    // Show text after 2 seconds
-    const timer = setTimeout(() => setShowText(true), 2000)
+    // Show text immediately, then hide and show after delay for animation
+    setShowText(false)
+    const timer = setTimeout(() => setShowText(true), 1500)
     return () => clearTimeout(timer)
   }, [currentIndex])
 
@@ -66,7 +67,13 @@ export default function ArtworkCarousel({ artworks, onArtworkClick }: ArtworkCar
     return () => window.removeEventListener('keydown', handleKeyDown)
   }, [])
 
-  if (!currentArtwork) return null
+  if (!currentArtwork) {
+    return (
+      <div className="relative w-full h-screen overflow-hidden bg-black flex items-center justify-center text-white">
+        <p>No artworks available</p>
+      </div>
+    )
+  }
 
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
@@ -75,22 +82,11 @@ export default function ArtworkCarousel({ artworks, onArtworkClick }: ArtworkCar
         <motion.div
           key={currentArtwork.id}
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1, x: 0 }}
+          animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
           className="absolute inset-0"
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={0.2}
-          onDragEnd={(e, { offset, velocity }) => {
-            const swipe = Math.abs(offset.x) * velocity.x
-            
-            if (swipe < -10000) {
-              handleNext()
-            } else if (swipe > 10000) {
-              handlePrev()
-            }
-          }}
+          style={{ opacity: 1 }}
         >
           {currentArtwork.imageUrl ? (
             <Image
