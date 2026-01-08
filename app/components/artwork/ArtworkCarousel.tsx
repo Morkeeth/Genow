@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
@@ -57,15 +57,29 @@ export default function ArtworkCarousel({ artworks, onArtworkClick }: ArtworkCar
     }
   }
 
-  const handleKeyDown = (e: KeyboardEvent) => {
-    if (e.key === 'ArrowLeft') handlePrev()
-    if (e.key === 'ArrowRight') handleNext()
-  }
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault()
+      handlePrev()
+    }
+    if (e.key === 'ArrowRight') {
+      e.preventDefault()
+      handleNext()
+    }
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault()
+      onArtworkClick?.(currentArtwork)
+    }
+    if (e.key === 'Escape') {
+      e.preventDefault()
+      router.push('/saved')
+    }
+  }, [currentArtwork, handleNext, handlePrev, onArtworkClick, router])
 
   useEffect(() => {
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [])
+  }, [handleKeyDown])
 
   if (!currentArtwork) {
     return (

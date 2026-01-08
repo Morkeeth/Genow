@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
@@ -59,7 +59,7 @@ export default function StoryPage() {
     }
   }
 
-  const handleNextInsight = () => {
+  const handleNextInsight = useCallback(() => {
     if (currentInsightIndex < insights.length - 1) {
       setCurrentInsightIndex(prev => prev + 1)
       // Auto-scroll to show new content
@@ -72,7 +72,7 @@ export default function StoryPage() {
     } else {
       router.push('/')
     }
-  }
+  }, [currentInsightIndex, insights.length, relatedArtworks, router])
 
   // Auto-advance insights on scroll
   useEffect(() => {
@@ -91,6 +91,31 @@ export default function StoryPage() {
     container?.addEventListener('scroll', handleScroll)
     return () => container?.removeEventListener('scroll', handleScroll)
   }, [currentInsightIndex, insights.length])
+
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'ArrowRight' || e.key === ' ') {
+        e.preventDefault()
+        handleNextInsight()
+      }
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault()
+        if (currentInsightIndex > 0) {
+          setCurrentInsightIndex(prev => prev - 1)
+        } else {
+          router.push('/')
+        }
+      }
+      if (e.key === 'Escape') {
+        e.preventDefault()
+        router.push('/')
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  }, [currentInsightIndex, insights.length, relatedArtworks.length, handleNextInsight, router])
 
   if (!artwork) {
     return (
