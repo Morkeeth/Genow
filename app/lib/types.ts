@@ -1,6 +1,7 @@
 export type Domain = 'art' | 'wine' | 'culture'
 
-// A course is a sequence of lessons on a topic
+// ── Courses & Lessons ──
+
 export interface Course {
   id: string
   domain: Domain
@@ -14,33 +15,72 @@ export interface Course {
   estimatedMinutes: number
 }
 
-// A lesson is one "page" in a course — content + optional quiz
 export interface Lesson {
   id: string
   title: string
   imageUrl: string
   imageCredit?: string
-  content: string         // the teaching content (paragraphs)
-  funFact?: string        // a memorable one-liner
-  quiz?: QuizQuestion     // optional quiz after content
+  content: string
+  funFact?: string
+  quiz?: QuizQuestion
+  comparison?: ComparisonQuestion  // image A vs B interactive
 }
 
 export interface QuizQuestion {
   question: string
   options: string[]
   correctIndex: number
-  explanation: string     // shown after answering
+  explanation: string
 }
 
-// Progress tracking
+export interface ComparisonQuestion {
+  prompt: string
+  imageA: { url: string; label: string; description: string }
+  imageB: { url: string; label: string; description: string }
+  insight: string  // shown after choosing
+}
+
+// ── Course Progress ──
+
 export interface CourseProgress {
   courseId: string
   currentLessonIndex: number
-  completedLessons: string[]  // lesson IDs
-  quizResults: Record<string, boolean>  // lessonId -> correct/wrong
+  completedLessons: string[]
+  quizResults: Record<string, boolean>
   startedAt: string
   completedAt?: string
 }
+
+// ── Taste Profile ──
+
+export interface TasteProfile {
+  // Spectrum scores: -1 (left) to +1 (right)
+  classic_vs_modern: number       // Classic ↔ Contemporary
+  subtle_vs_bold: number          // Subtle ↔ Bold
+  minimalist_vs_expressive: number // Minimalist ↔ Expressive
+  archetype: string                // "The Classicist", "The Explorer", etc.
+  completedAt: string
+}
+
+export interface TasteQuizAnswer {
+  questionId: string
+  choice: 'a' | 'b'
+}
+
+// ── Your Stable (Personal Collection) ──
+
+export interface StableItem {
+  id: string
+  category: 'art' | 'wine' | 'design' | 'style' | 'nature' | 'place'
+  title: string
+  subtitle?: string
+  imageUrl?: string
+  note?: string        // personal note: "reminds me of summer in Provence"
+  addedAt: string
+  fromCourse?: string  // which course surfaced this
+}
+
+// ── User Progress (combined) ──
 
 export interface UserProgress {
   courses: Record<string, CourseProgress>
@@ -49,4 +89,6 @@ export interface UserProgress {
   streak: number
   lastActiveDate: string
   deviceId: string
+  tasteProfile?: TasteProfile
+  stable: StableItem[]
 }
