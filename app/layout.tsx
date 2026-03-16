@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import './styles/globals.css'
 
 export const metadata: Metadata = {
-  title: 'Genow — Learn Art, Wine & Elegance',
-  description: 'Micro-learning that makes you more cultured, one swipe at a time. Art, wine, design, philosophy.',
+  title: 'Genow — Made by Humans',
+  description: 'The timeless craft of art, wine, design, and technology. In the age of AI, the human hand is the real story.',
   openGraph: {
-    title: 'Genow — Learn Art, Wine & Elegance',
-    description: 'Micro-learning that makes you more cultured, one swipe at a time.',
+    title: 'Genow — Made by Humans',
+    description: 'The timeless craft of art, wine, design, and technology. In the age of AI, the human hand is the real story.',
     type: 'website',
   },
 }
