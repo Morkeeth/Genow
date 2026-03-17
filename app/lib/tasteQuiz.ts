@@ -25,7 +25,7 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-1',
     prompt: 'Which painting would you hang in your home?',
     optionA: {
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',
+      imageUrl: '/images/monet-water-lilies.jpg',
       label: 'Monet — Water Lilies',
       vibe: 'Soft light, nature, contemplation',
     },
@@ -79,7 +79,7 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-4',
     prompt: 'Which says more to you?',
     optionA: {
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg',
+      imageUrl: '/images/vermeer-pearl-earring.jpg',
       label: 'Vermeer — Girl with a Pearl Earring',
       vibe: 'Quiet mastery, intimacy, timeless',
     },
@@ -133,12 +133,12 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-7',
     prompt: 'Which captures beauty?',
     optionA: {
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/800px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg',
+      imageUrl: '/images/klimt-the-kiss.jpg',
       label: 'Klimt — The Kiss',
       vibe: 'Gold, ornament, lush, romantic',
     },
     optionB: {
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1280px-Nighthawks_by_Edward_Hopper_1942.jpg',
+      imageUrl: '/images/hopper-nighthawks.jpg',
       label: 'Hopper — Nighthawks',
       vibe: 'Solitude, urban, cool, cinematic',
     },

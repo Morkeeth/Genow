@@ -3,12 +3,12 @@
 ## Phase 1: Content & Polish ← IN PROGRESS
 
 ### Content Expansion
-- [x] Add comparisons to all lessons — every lesson now has an A/B interaction (34 total)
+- [x] Add comparisons to all lessons — every lesson has an A/B interaction (46 total)
 - [x] Flesh out thin courses: How to Taste Wine (3→4), Social Intelligence (2→4), White Grapes (3→4)
-- [ ] New course: **Photography as Art** (art) — Cartier-Bresson, Ansel Adams, Cindy Sherman, phone vs camera
-- [ ] New course: **Wine Regions That Matter** (wine) — Burgundy, Bordeaux, New World, Natural Wine
-- [ ] New course: **The Art of the Table** (culture) — setting tables, hosting, coffee & tea, bread
-- [ ] Target: 12 courses, ~47 lessons (currently: 9 courses, 36 lessons, all with comparisons)
+- [x] New course: **Photography as Art** (art) — Cartier-Bresson, Ansel Adams, Cindy Sherman, phone vs camera
+- [x] New course: **Wine Regions That Matter** (wine) — Burgundy, Bordeaux, New World, Natural Wine
+- [x] New course: **The Art of the Table** (culture) — setting tables, hosting, coffee & tea, bread
+- [x] ~~Target: 12 courses, ~47 lessons~~ **Done: 12 courses, 46 lessons, all with comparisons and quizzes**
 
 ### Stable Page — macOS Desktop Metaphor
 - [x] Folder icons per category with thumbnail previews
@@ -23,17 +23,14 @@
 - [ ] Drag items between folders to recategorize
 - [ ] Desktop wallpaper that changes based on taste archetype
 
-### Performance
+### Performance & Images
 - [x] Next.js image optimization config (avif/webp, specific domains, device sizes)
-- [ ] Audit all image URLs — replace any 404s
-- [ ] Self-host critical art masterwork images in /public for reliability + speed
-- [ ] Lazy load off-screen course sections on homepage
-- [ ] Consider ISR or static generation for course pages
-
-### Images
-- [ ] Audit all 60+ image URLs for 404s
-- [ ] Replace Unsplash URLs with self-hosted versions for wine/culture (Unsplash hotlinking is unreliable)
+- [x] Self-hosted 8 key art masterworks in /public/images (Monet, Van Gogh, Hopper, Hokusai, Renoir, Vermeer, Klimt, Monet Sunrise)
+- [x] Images resized to max 1200px for fast loading
+- [ ] Self-host remaining Wikimedia images (Guernica, Degas, Matisse, Pantheon — blocked by Wikimedia CDN)
+- [ ] Replace Unsplash URLs with self-hosted versions for wine/culture
 - [ ] Add blur placeholder data URLs for key images
+- [ ] Lazy load off-screen course sections on homepage
 - [ ] Color-gradient fallbacks already exist via onError handlers
 
 ---
@@ -133,11 +130,10 @@
 
 | Priority | What | Status |
 |----------|------|--------|
-| **P0** | Content expansion — all lessons with comparisons | ✅ Done (34 comparisons, 36 lessons) |
+| **P0** | Content expansion — 12 courses, 46 lessons, all with comparisons | ✅ Done |
 | **P0** | Stable as macOS desktop | ✅ Done (folders, dock, windows) |
-| **P0** | Deploy to Vercel | Next up |
-| **P1** | Image audit + self-hosting critical images | Next up |
-| **P1** | 3 more courses (Photography, Regions, Table) | In progress |
+| **P0** | Self-host critical images | ✅ Done (8 masterworks in /public) |
+| **P0** | Deploy to Vercel | **Next up** |
 | **P1** | Supabase auth + persistence | After deploy |
 | **P2** | Sharing + OG cards | After auth |
 | **P2** | Streaks + daily lesson | After auth |

@@ -22,14 +22,15 @@ One long editorial homepage (inspired by [thewayofcode.com](https://www.thewayof
 
 | Domain | Courses | What It Covers |
 |--------|---------|----------------|
-| **Art** | Impressionism 101, Iconic Paintings, How Color Works | Movements, masterworks, the science of color |
-| **Wine** | Red Grapes, White Grapes, How to Taste | Grape varieties, tasting technique, no pretension |
-| **Culture** | Design Principles, Social Intelligence, Architecture | Bauhaus to wabi-sabi, conversation to buildings |
+| **Art** | Impressionism 101, Iconic Paintings, How Color Works, Photography as Art | Movements, masterworks, color science, decisive moments |
+| **Wine** | Red Grapes, White Grapes, How to Taste, Wine Regions | Grape varieties, tasting technique, terroir, natural wine |
+| **Culture** | Design Principles, Social Intelligence, Architecture, Art of the Table | Bauhaus to wabi-sabi, conversation, hosting, coffee & bread |
 
 ### Current Numbers
 
-- 9 courses, 36 lessons
-- Every lesson has a quiz AND an image A/B comparison (34 comparisons)
+- 12 courses, 46 lessons across 3 domains
+- Every lesson has a quiz AND an image A/B comparison (46 each)
+- 8 key art images self-hosted for fast loading
 - 7 taste archetypes
 - 6 stable categories (art, wine, design, style, nature, place)
 - macOS desktop metaphor for stable (folders, dock, windows)

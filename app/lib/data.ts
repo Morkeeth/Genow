@@ -10,7 +10,7 @@ export const courses: Course[] = [
     title: 'Impressionism 101',
     subtitle: 'The rebels who changed how we see',
     description: 'How a group of rejected painters invented modern art in Parisian cafés.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',
+    imageUrl: '/images/monet-water-lilies.jpg',
     color: '#2e7d32',
     difficulty: 'beginner',
     estimatedMinutes: 12,
@@ -18,7 +18,7 @@ export const courses: Course[] = [
       {
         id: 'imp-1',
         title: 'The Salon Rejects',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg/1280px-Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg',
+        imageUrl: '/images/monet-impression-sunrise.jpg',
         content: `In 1874, a group of painters held their own exhibition in Paris after being rejected by the Salon — the official art establishment that decided what counted as "real art."\n\nA critic saw Claude Monet's painting *Impression, Sunrise* — a hazy harbor scene — and mocked it. He called the whole group "Impressionists." He meant it as an insult.\n\nThey kept the name.\n\nThe Salon wanted finished, polished paintings with mythological subjects and smooth brushwork. These rebels painted everyday life — cafés, train stations, gardens — with visible brushstrokes and vivid color. They painted *light itself*, not things.`,
         funFact: '"Impressionism" started as an insult from a critic. They kept the name anyway.',
         comparison: {
@@ -29,7 +29,7 @@ export const courses: Course[] = [
             description: 'Salon-approved perfection: smooth, idealized, mythological',
           },
           imageB: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg/1280px-Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg',
+            url: '/images/monet-impression-sunrise.jpg',
             label: 'Monet — Impression, Sunrise',
             description: 'The painting that started a revolution — rough, hazy, alive',
           },
@@ -50,13 +50,13 @@ export const courses: Course[] = [
       {
         id: 'imp-2',
         title: 'Monet\'s Obsession with Light',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',
+        imageUrl: '/images/monet-water-lilies.jpg',
         content: `Claude Monet didn't paint things. He painted what light did to things.\n\nHe would set up multiple canvases in a row and switch between them as the sun moved. His series of Rouen Cathedral — over 30 paintings of the same building — shows how completely different a single subject looks at dawn, noon, and dusk.\n\nHe spent the last 30 years of his life painting his water garden in Giverny. Over 250 paintings of water lilies. By the end, his eyesight was failing from cataracts, and the paintings became more abstract — more blurred, more dissolved.\n\nHis failing eyes pushed him toward abstraction decades before it became a movement.`,
         funFact: 'Monet painted the same cathedral 30+ times — once for every change of light.',
         comparison: {
           prompt: 'Which light calls to you?',
           imageA: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',
+            url: '/images/monet-water-lilies.jpg',
             label: 'Monet — Water Lilies',
             description: 'Dissolved color, floating light, pure atmosphere',
           },
@@ -82,13 +82,13 @@ export const courses: Course[] = [
       {
         id: 'imp-3',
         title: 'Renoir and the Joy of Living',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg',
+        imageUrl: '/images/renoir-moulin-galette.jpg',
         content: `If Monet painted light, Pierre-Auguste Renoir painted happiness.\n\nHis masterpiece *Bal du moulin de la Galette* shows a Sunday afternoon dance in Montmartre. Dappled sunlight falls through trees onto dancing couples. Everyone is smiling. The light is golden and warm.\n\nRenoir was the son of a tailor and a seamstress. He started as a porcelain painter at 13. He never forgot what it felt like to be poor, and he spent his life painting abundance — full tables, rosy cheeks, sun-drenched afternoons.\n\nIn his final years, his hands were so crippled by rheumatoid arthritis that brushes had to be strapped to his fingers. He kept painting. When asked why he continued through such pain, he said: "The pain passes, but the beauty remains."`,
         funFact: '"The pain passes, but the beauty remains." — Renoir, painting with brushes strapped to arthritic hands.',
         comparison: {
           prompt: 'Which celebration would you rather be at?',
           imageA: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg',
+            url: '/images/renoir-moulin-galette.jpg',
             label: 'Renoir — Bal du moulin de la Galette',
             description: 'Outdoor dance, dappled sunlight, everyone smiling',
           },
@@ -152,7 +152,7 @@ export const courses: Course[] = [
     title: 'Stories Behind Iconic Paintings',
     subtitle: 'The truths you never knew',
     description: 'The real stories behind the world\'s most famous artworks — none of them are what you think.',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
+    imageUrl: '/images/van-gogh-starry-night.jpg',
     color: '#1a237e',
     difficulty: 'beginner',
     estimatedMinutes: 15,
@@ -160,13 +160,13 @@ export const courses: Course[] = [
       {
         id: 'icon-1',
         title: 'The Starry Night',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
+        imageUrl: '/images/van-gogh-starry-night.jpg',
         content: `Van Gogh painted this from the window of his asylum room in Saint-Rémy-de-Provence. He had voluntarily committed himself after severing part of his ear.\n\nThe swirling sky isn't madness on canvas — modern physicists discovered the turbulence patterns match Kolmogorov's mathematical model of turbulent flow with uncanny precision. Van Gogh was painting real physics he could somehow *see*.\n\nThe village below is calm, almost geometric. The cypress tree in the foreground reaches up like a dark flame connecting earth to sky.\n\nHe painted it from memory during the day, not at night. The starry sky was how he *remembered* feeling, not what he saw.`,
         funFact: 'The swirl patterns match a real mathematical model of turbulence. Van Gogh saw physics.',
         comparison: {
           prompt: 'Which night sky speaks to you?',
           imageA: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
+            url: '/images/van-gogh-starry-night.jpg',
             label: 'Van Gogh — The Starry Night',
             description: 'Turbulent, electric. The sky is alive and writhing.',
           },
@@ -192,13 +192,13 @@ export const courses: Course[] = [
       {
         id: 'icon-2',
         title: 'Nighthawks',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1280px-Nighthawks_by_Edward_Hopper_1942.jpg',
+        imageUrl: '/images/hopper-nighthawks.jpg',
         content: `There is no door. Look carefully — the diner has no visible entrance. The four people inside are sealed in light, separated from the dark street by curved glass.\n\nHopper painted this weeks after Pearl Harbor. America had just entered World War II. The empty streets, the isolation, the harsh fluorescent light — it captured a nation's anxiety.\n\nThe couple sitting together don't touch. The man alone has his back to us. The server is the only one who seems at ease. Everyone is together, but everyone is alone.\n\nThe diner was based on a real restaurant in Greenwich Village, Manhattan. It was demolished long ago. The painting outlived the place.`,
         funFact: 'There is no door to the diner. The people inside are sealed in light.',
         comparison: {
           prompt: 'Which loneliness resonates more?',
           imageA: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1280px-Nighthawks_by_Edward_Hopper_1942.jpg',
+            url: '/images/hopper-nighthawks.jpg',
             label: 'Hopper — Nighthawks',
             description: 'Urban isolation. Fluorescent light. Together but alone.',
           },
@@ -224,13 +224,13 @@ export const courses: Course[] = [
       {
         id: 'icon-3',
         title: 'The Great Wave',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg',
+        imageUrl: '/images/hokusai-great-wave.jpg',
         content: `Hokusai was 70 years old when he made this. He said: "All I have produced before the age of seventy is not worth taking into account."\n\nLook past the wave. Mount Fuji sits in the background — tiny, still, eternal. The fishermen in three boats cling to their vessels. The wave towers above everything, its fingers of foam reaching like claws.\n\nThis is a woodblock print, not a painting. Each color required a separate carved block, perfectly aligned. Thousands of copies were printed — this was pop art, sold for the price of a bowl of noodles.\n\nThe Prussian blue pigment was brand new to Japan, recently imported from Europe. Hokusai was one of the first to use it. Debussy hung a copy above his piano. It inspired *La Mer*.`,
         funFact: 'Hokusai was 70. It sold for the price of noodles. Debussy hung it above his piano.',
         comparison: {
           prompt: 'Which force of nature captivates you?',
           imageA: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg',
+            url: '/images/hokusai-great-wave.jpg',
             label: 'Hokusai — The Great Wave',
             description: 'Controlled chaos. Every foam claw is placed with precision.',
           },
@@ -905,7 +905,7 @@ export const courses: Course[] = [
             description: 'Pure pigment. No image, no form. Just blue, infinite.',
           },
           imageB: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg',
+            url: '/images/vermeer-pearl-earring.jpg',
             label: 'Vermeer — Girl with a Pearl Earring',
             description: 'Lapis lazuli turban. Blue used with precision and restraint.',
           },
@@ -926,18 +926,18 @@ export const courses: Course[] = [
       {
         id: 'col-3',
         title: 'Gold and Light — What Shines',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/800px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg',
+        imageUrl: '/images/klimt-the-kiss.jpg',
         content: `Gold is not really a color. It's a behavior of light.\n\nByzantine mosaics used gold tesserae — tiny gold-leaf glass tiles — set at slightly different angles so they'd catch light differently. The mosaics literally shimmered. The gold backgrounds weren't decorative. They represented divine light — the light of heaven itself.\n\nGustav Klimt revived this idea in 1907 with *The Kiss*. He applied actual gold leaf to the canvas. The two figures dissolve into a field of gold patterns — geometric, organic, Byzantine, modern. You can't tell where one body ends and the other begins.\n\nIt's the most reproduced artwork of the 20th century. Everyone recognizes it. Almost no one knows it's physically covered in real gold.\n\nRembrandt achieved gold without gold. His signature trick: paint a dark background, then layer thin glazes of warm ochre and brown. The light seems to come from within the painting itself. It's called Rembrandt lighting, and photographers still use it.`,
         funFact: 'Klimt\'s The Kiss is covered in actual gold leaf. Byzantine mosaics shimmer because each tile is set at a different angle.',
         comparison: {
           prompt: 'Which captures light better?',
           imageA: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/800px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg',
+            url: '/images/klimt-the-kiss.jpg',
             label: 'Klimt — The Kiss',
             description: 'Actual gold leaf on canvas. Ornament as emotion.',
           },
           imageB: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg',
+            url: '/images/vermeer-pearl-earring.jpg',
             label: 'Vermeer — Girl with a Pearl Earring',
             description: 'Light from darkness. A single pearl catches everything.',
           },
@@ -1249,6 +1249,451 @@ export const courses: Course[] = [
           ],
           correctIndex: 1,
           explanation: 'Humans are wired to respond to fractal complexity — surfaces with interesting detail at every level of magnification. Gothic cathedrals, Art Nouveau, and nature all share this quality.',
+        },
+      },
+    ],
+  },
+
+  // ═══════════════════════════════════════════
+  // ART 🎨 — Photography
+  // ═══════════════════════════════════════════
+  {
+    id: 'art-photography',
+    domain: 'art',
+    title: 'Photography as Art',
+    subtitle: 'When the camera became more than a machine',
+    description: 'The photographers who proved a lens can see as deeply as a brush.',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Henri_Cartier-Bresson%2C_The_Decisive_Moment%2C_cover.jpg/800px-Henri_Cartier-Bresson%2C_The_Decisive_Moment%2C_cover.jpg',
+    color: '#263238',
+    difficulty: 'beginner',
+    estimatedMinutes: 14,
+    lessons: [
+      {
+        id: 'photo-1',
+        title: 'The Decisive Moment — Cartier-Bresson',
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Henri_Cartier-Bresson%2C_The_Decisive_Moment%2C_cover.jpg/800px-Henri_Cartier-Bresson%2C_The_Decisive_Moment%2C_cover.jpg',
+        content: `Henri Cartier-Bresson never cropped a photograph. What you see in the print is exactly what he saw through the viewfinder in the fraction of a second he pressed the shutter.\n\nHe called it "the decisive moment" — the instant when composition, movement, and meaning align. You can't plan it. You can only be ready for it.\n\nCartier-Bresson trained as a painter under André Lhote, a Cubist. He saw photographs the way painters see canvases — in terms of geometry, rhythm, and balance. His images have the structural precision of a Mondrian but the spontaneity of jazz.\n\nHe used one camera (a Leica rangefinder) and one lens (50mm) for almost his entire career. He wrapped the camera in black tape to make it invisible. He dressed in plain clothes. He became a ghost in the street.\n\nHis rules: never use flash (it's disrespectful), never crop (compose in the viewfinder or not at all), never direct the subject (reality is always more interesting than your idea of it).`,
+        funFact: 'Cartier-Bresson wrapped his Leica in black tape so it wouldn\'t catch the light. He became invisible.',
+        comparison: {
+          prompt: 'Which approach to capturing life?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Henri_Cartier-Bresson%2C_The_Decisive_Moment%2C_cover.jpg/800px-Henri_Cartier-Bresson%2C_The_Decisive_Moment%2C_cover.jpg',
+            label: 'Street photography — candid',
+            description: 'Unseen, unstaged. You catch the world unaware.',
+          },
+          imageB: {
+            url: '/images/vermeer-pearl-earring.jpg',
+            label: 'Portrait — composed',
+            description: 'Arranged, lit, directed. You build the world you want.',
+          },
+          insight: 'Cartier-Bresson found truth by not interfering. Portrait photographers find truth by creating the conditions for it. Both are honest — but about different things.',
+        },
+        quiz: {
+          question: 'What was Cartier-Bresson\'s strict rule about composition?',
+          options: [
+            'Always crop to a square format',
+            'Never crop — compose perfectly in the viewfinder or not at all',
+            'Always include a human subject',
+            'Shoot only in natural light at golden hour',
+          ],
+          correctIndex: 1,
+          explanation: 'Cartier-Bresson never cropped his photographs. The frame you see is exactly what he saw through the viewfinder in the moment he pressed the shutter.',
+        },
+      },
+      {
+        id: 'photo-2',
+        title: 'Ansel Adams — The Zone System',
+        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Adams_The_Tetons_and_the_Snake_River.jpg/1280px-Adams_The_Tetons_and_the_Snake_River.jpg',
+        content: `Ansel Adams didn't just photograph landscapes. He invented a system for seeing them.\n\nThe Zone System divides every scene into 11 zones of brightness, from pure black (Zone 0) to pure white (Zone X). Adams would stand in front of a mountain, meter the light in different areas, and decide — before pressing the shutter — exactly how bright or dark each part of the final print would be.\n\nThis wasn't technology. This was visualization. He saw the finished print in his mind before he took the picture. The camera was just a step in the process.\n\nHis most famous image, *Moonrise, Hernandez, New Mexico* (1941), was taken in a panic. He saw the scene from his car, pulled over, couldn't find his light meter, calculated the exposure from memory using the known luminance of the moon, and took a single frame before the light changed. That single frame became one of the most valuable photographs ever made.\n\nAdams was also a fierce environmentalist. His images of Yosemite, the Tetons, and the Sierra Nevada helped create public support for the National Parks system. He proved that photographs could change policy.`,
+        funFact: 'Adams calculated his most famous shot from memory because he couldn\'t find his light meter. One frame. Perfect.',
+        comparison: {
+          prompt: 'Which landscape photography philosophy?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Adams_The_Tetons_and_the_Snake_River.jpg/1280px-Adams_The_Tetons_and_the_Snake_River.jpg',
+            label: 'Ansel Adams — black and white',
+            description: 'Controlled, pre-visualized. Every tone deliberate. Drama through restraint.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
+            label: 'Modern color landscape',
+            description: 'Saturated, immediate, emotional. Let the color do the work.',
+          },
+          insight: 'Adams removed color to reveal structure. Color photography adds emotion but can hide form. The question is: do you want to feel the mountain, or understand it?',
+        },
+        quiz: {
+          question: 'What is the Zone System?',
+          options: [
+            'A geographic mapping system for finding landscapes',
+            'A method dividing scenes into 11 brightness zones for precise exposure control',
+            'A darkroom technique for adding color to black-and-white prints',
+            'A rule for composing landscapes into thirds',
+          ],
+          correctIndex: 1,
+          explanation: 'Adams\'s Zone System divides every scene into 11 zones from pure black to pure white. The photographer decides in advance exactly how bright each area of the final print will be.',
+        },
+      },
+      {
+        id: 'photo-3',
+        title: 'Cindy Sherman — Becoming Everyone',
+        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `Cindy Sherman has been photographing one person for 50 years: herself. But she has never taken a self-portrait.\n\nThat's the paradox. In her *Untitled Film Stills* series (1977-1980), she dressed as different women from 1950s and '60s movies — the ingénue, the housewife, the femme fatale, the runaway. They look like movie stills from films that don't exist.\n\nShe does everything herself: makeup, costumes, lighting, set design, camera. She is the director, the actor, and the audience.\n\nThe point isn't "who is Cindy Sherman?" It's "who are these women, and why do we recognize them?" Every image is a character we've seen a thousand times in movies, ads, and magazines. Sherman reveals how constructed femininity really is.\n\nShe never titles her photographs — just numbers them. She refuses to explain them. "The work is about what you bring to it," she says.\n\nHer *Untitled Film Stills* were acquired by MoMA as a complete set for $1 million. A single print later sold at auction for $3.89 million — the highest price ever paid for a photograph at that time.`,
+        funFact: 'Sherman photographs only herself but has never taken a self-portrait. Every image is a character, not a person.',
+        comparison: {
+          prompt: 'Which portrait reveals more?',
+          imageA: {
+            url: '/images/vermeer-pearl-earring.jpg',
+            label: 'Vermeer — Girl with a Pearl Earring',
+            description: 'A real person seen through a painter\'s eye. Intimate, quiet.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: 'A constructed character',
+            description: 'A type, not a person. Who we expect to see, not who is there.',
+          },
+          insight: 'Vermeer found a person and revealed her mystery. Sherman creates a person and reveals our assumptions. Both are portraits — one discovers, the other deconstructs.',
+        },
+        quiz: {
+          question: 'What is the central paradox of Cindy Sherman\'s work?',
+          options: [
+            'She uses only black and white but calls them color photographs',
+            'She photographs only herself but never makes self-portraits',
+            'She uses a phone camera but prints at enormous scale',
+            'She only photographs men but identifies as female',
+          ],
+          correctIndex: 1,
+          explanation: 'Sherman always uses herself as model, but each image is a constructed character — a type we recognize from media. She\'s examining identity and performance, not documenting herself.',
+        },
+      },
+      {
+        id: 'photo-4',
+        title: 'Why Your Phone Isn\'t a Camera',
+        imageUrl: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `We take more photographs now than in the entire previous history of photography combined. And almost none of them are worth looking at twice.\n\nThe problem isn't the technology. Phone cameras are extraordinary — computationally combining multiple exposures, correcting lens distortion, enhancing detail. They produce technically perfect images.\n\nBut technical perfection and a good photograph have almost nothing to do with each other.\n\nA good photograph is a decision. What to include, what to leave out, when to press the shutter, where to stand. Cartier-Bresson's entire philosophy was about *choosing the moment*. Adams spent hours waiting for light. Sherman spent days building a character.\n\n**The phone encourages the opposite:** shoot everything, choose later, share immediately. There is no decision, no waiting, no sacrifice.\n\nTry this: for one day, give yourself 24 exposures. The length of a film roll. Before you press the shutter, ask: "Is this worth one of my 24?" You'll take fewer photographs. They'll be better. Not because of the limit, but because the limit made you look.\n\nThe camera you have is enough. What matters is whether you're using it to see, or just to capture.`,
+        funFact: 'We take more photographs in 2 minutes today than all of humanity took in the entire 1800s.',
+        comparison: {
+          prompt: 'Which is a photograph?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80',
+            label: 'A deliberate composition',
+            description: 'Chosen moment, considered frame. Someone decided this mattered.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+            label: 'A quick snapshot',
+            description: 'Point, shoot, scroll past. Technically perfect, emotionally empty.',
+          },
+          insight: 'Both used the same technology. The difference is attention. A photograph is what happens when someone decides that this moment, this frame, this light — matters enough to stop for.',
+        },
+        quiz: {
+          question: 'What exercise can improve your photography immediately?',
+          options: [
+            'Buy a more expensive camera',
+            'Edit every photo with filters before sharing',
+            'Limit yourself to 24 exposures per day — the length of a film roll',
+            'Only photograph at golden hour',
+          ],
+          correctIndex: 2,
+          explanation: 'Limiting yourself to 24 exposures forces you to decide before you shoot. That decision — is this worth one of my 24? — is what separates photography from capturing.',
+        },
+      },
+    ],
+  },
+
+  // ═══════════════════════════════════════════
+  // WINE 🍷 — Regions
+  // ═══════════════════════════════════════════
+  {
+    id: 'wine-regions',
+    domain: 'wine',
+    title: 'Wine Regions That Matter',
+    subtitle: 'The soil is the story',
+    description: 'Burgundy, Bordeaux, the New World — why where a grape grows changes everything.',
+    imageUrl: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+    color: '#4a148c',
+    difficulty: 'intermediate',
+    estimatedMinutes: 14,
+    lessons: [
+      {
+        id: 'reg-1',
+        title: 'Burgundy — Where Terroir Was Born',
+        imageUrl: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `In Burgundy, two vineyards separated by a dirt path can produce wines worth ten times different prices. Same grape. Same winemaker. Same year. Different dirt.\n\nThis is terroir — the idea that a wine expresses the specific place it grew. Not just the soil, but the slope, the drainage, the microclimate, the morning fog, the afternoon sun.\n\nCistercian monks began mapping Burgundy's vineyards in the 12th century. For 700 years, they tasted and documented which plots produced exceptional wine and which didn't. They built the walls (called *clos*) that still define the vineyards today.\n\nModern geology confirmed what the monks knew by taste: the Grand Cru vineyards sit on a specific band of Jurassic limestone, at a specific elevation, with a specific east-southeast exposure. Hundreds of years of tasting notes aligned with millions of years of geology.\n\nBurgundy is the most expensive wine region on earth. A single bottle of Romanée-Conti — from a vineyard smaller than two football fields — sells for $20,000 or more. You're not paying for the grape. You're paying for 4.5 acres of limestone that produces wine no other place on earth can replicate.`,
+        funFact: 'Romanée-Conti is smaller than 2 football fields. A single bottle costs $20,000+. The soil is the story.',
+        comparison: {
+          prompt: 'Which matters more to you?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            label: 'The vineyard — terroir',
+            description: 'The grape is just a messenger. The soil writes the message.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            label: 'The winemaker — craft',
+            description: 'Great terroir is wasted without great hands. The maker shapes everything.',
+          },
+          insight: 'Burgundy says the land matters most. New World winemakers say the person does. In reality: great wine requires both. But Burgundy proved that place is something you can\'t fake.',
+        },
+        quiz: {
+          question: 'Who first mapped Burgundy\'s vineyard quality?',
+          options: [
+            'Napoleon Bonaparte',
+            'Robert Parker, the wine critic',
+            'Cistercian monks over 700 years',
+            'Modern geologists using satellite imaging',
+          ],
+          correctIndex: 2,
+          explanation: 'Cistercian monks spent centuries tasting and documenting which plots produced the best wine. Modern soil science later confirmed their findings matched geological reality.',
+        },
+      },
+      {
+        id: 'reg-2',
+        title: 'Bordeaux — The Business of Great Wine',
+        imageUrl: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `Bordeaux invented the modern wine industry. Not through terroir mysticism, but through commerce.\n\nIn 1855, Napoleon III asked Bordeaux to rank its best wines for the Paris World's Fair. The brokers created a classification based on the prices wines had historically fetched. The top tier — First Growths — were Lafite, Latour, Margaux, Haut-Brion, and later Mouton-Rothschild.\n\nThat 1855 classification has barely changed in 170 years. It's the most durable brand hierarchy in any industry on earth.\n\nBordeaux's genius is the blend. Unlike Burgundy (one grape per wine), Bordeaux wines combine multiple grape varieties. The Left Bank (Médoc, Graves) leads with Cabernet Sauvignon — structured, tannic, long-lived. The Right Bank (Pomerol, Saint-Émilion) leads with Merlot — plush, round, approachable young.\n\nThe blend is the winemaker's signature. Each year, they decide the proportions based on how each grape performed. It's an act of composition — like mixing a song.\n\nBordeaux also invented the *en primeur* system — selling wine before it's even bottled, based on barrel samples. It turned wine into a financial instrument. Some love this. Others say it's exactly what's wrong with wine.`,
+        funFact: 'The 1855 Bordeaux classification has barely changed in 170 years — the most durable brand ranking in any industry.',
+        comparison: {
+          prompt: 'Which side of Bordeaux?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            label: 'Left Bank — Cabernet-led',
+            description: 'Structured, cerebral, built to age 30 years. Patience required.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+            label: 'Right Bank — Merlot-led',
+            description: 'Plush, generous, drinkable young. Pleasure now.',
+          },
+          insight: 'Left Bank rewards patience. Right Bank rewards curiosity. The Left Bank is a cathedral; the Right Bank is a garden. Both are Bordeaux — both are built to last.',
+        },
+        quiz: {
+          question: 'What makes the 1855 Bordeaux Classification remarkable?',
+          options: [
+            'It was based on soil analysis',
+            'It ranked wines by historical market price and has barely changed in 170 years',
+            'It was the first to classify wines by grape variety',
+            'It was created by a single taster over his lifetime',
+          ],
+          correctIndex: 1,
+          explanation: 'Napoleon III\'s brokers ranked wines by the prices they\'d historically achieved. That price-based hierarchy has remained almost unchanged for 170 years — outlasting empires.',
+        },
+      },
+      {
+        id: 'reg-3',
+        title: 'The New World — When Rules Don\'t Apply',
+        imageUrl: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `In 1976, a British wine merchant named Steven Spurrier organized a blind tasting in Paris. French judges tasted French wines against Californian wines, not knowing which was which.\n\nCalifornia won. Both categories — red and white. The French judges had accidentally crowned American wines as superior to their own Grand Crus.\n\nThe "Judgment of Paris" shattered 300 years of European supremacy. It proved that great wine could come from anywhere — if someone cared enough to make it.\n\nThe New World wine revolution followed: California, Australia, Chile, Argentina, New Zealand, South Africa. Each brought something different. California brought ambition and technology. Australia brought boldness and scale. New Zealand brought Sauvignon Blanc that tasted like an electric shock. Argentina found that Malbec — a grape France had abandoned — was extraordinary in Mendoza's altitude.\n\nThe Old World asks: "Where is the wine from?" The New World asks: "Who made it?" Both are valid questions. The best wines answer both.\n\nToday the distinction is blurring. French winemakers experiment. New World producers embrace restraint. The conversation is no longer us vs. them — it's about what's in the glass.`,
+        funFact: 'In 1976, California beat France in a blind tasting in Paris. French judges crowned American wines without knowing it.',
+        comparison: {
+          prompt: 'Which label do you reach for?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            label: 'Old World — tradition',
+            description: 'Region on the label. Centuries of rules. The land speaks.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+            label: 'New World — innovation',
+            description: 'Grape on the label. Rules are suggestions. The winemaker speaks.',
+          },
+          insight: 'Old World wine tells you where. New World wine tells you what. The best of both tell you why — why this grape, this place, this year matters.',
+        },
+        quiz: {
+          question: 'What was the "Judgment of Paris"?',
+          options: [
+            'A French court that established wine quality laws',
+            'A blind tasting where California wines beat France, shocking the wine world',
+            'A competition between Bordeaux and Burgundy',
+            'The first international wine auction, held in Paris',
+          ],
+          correctIndex: 1,
+          explanation: 'In 1976, Steven Spurrier organized a blind tasting where French judges unknowingly chose California wines over French Grand Crus — proving great wine isn\'t confined to Europe.',
+        },
+      },
+      {
+        id: 'reg-4',
+        title: 'Natural Wine — Revolution or Chaos?',
+        imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `Natural wine has no legal definition. This is both its power and its problem.\n\nThe general idea: grapes farmed organically or biodynamically, fermented with native yeasts (no commercial yeasts added), minimal or no sulfites added, nothing added, nothing removed. The wine is what the grape and the year gave you.\n\nAt its best, natural wine is electrifying — alive, funky, unpredictable, tasting of a place in a way conventional wine can't. A great natural wine from a specific vineyard in a specific year is genuinely unrepeatable.\n\nAt its worst, it's spoiled juice sold at a premium because the label is cool. Without sulfites as a preservative, natural wine is fragile. It can turn to vinegar in warm conditions. "Funky" and "faulty" share a thin border.\n\nThe natural wine movement is really about philosophy: should a winemaker control the process, or witness it? Conventional winemaking manipulates dozens of variables — acid, sugar, tannin, color. Natural winemaking trusts the grape.\n\nThe revolution is real. Natural wine forced the entire industry to question its additives and practices. Whether you drink it or not, the wine in your glass is probably better because natural wine asked uncomfortable questions.`,
+        funFact: 'Natural wine has no legal definition. It\'s a philosophy, not a category. This is both its power and its problem.',
+        comparison: {
+          prompt: 'Which glass would you pick up?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            label: 'Conventional — clear, polished',
+            description: 'Predictable, stable, crafted. You know what you\'re getting.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+            label: 'Natural — cloudy, alive',
+            description: 'Unpredictable, fragile, wild. You might love it. You might not.',
+          },
+          insight: 'Conventional wine is a conversation between winemaker and grape. Natural wine is a monologue from the grape. Both can be profound. But only one lets you taste the chaos of a real vintage.',
+        },
+        quiz: {
+          question: 'What is the biggest challenge with natural wine?',
+          options: [
+            'It\'s always more expensive than conventional wine',
+            'It can only be made in France',
+            'Without sulfites it\'s fragile and can spoil easily — "funky" and "faulty" are a thin line',
+            'It can only be made from red grapes',
+          ],
+          correctIndex: 2,
+          explanation: 'Without sulfites as preservative, natural wine is vulnerable to heat, oxygen, and bacteria. The line between characterful "funk" and actual spoilage is thin — making storage and transport critical.',
+        },
+      },
+    ],
+  },
+
+  // ═══════════════════════════════════════════
+  // CULTURE 🏛️ — Art of the Table
+  // ═══════════════════════════════════════════
+  {
+    id: 'culture-table',
+    domain: 'culture',
+    title: 'The Art of the Table',
+    subtitle: 'How you eat matters as much as what you eat',
+    description: 'From Japanese kaiseki to French bistros — why the ritual of eating is a craft in itself.',
+    imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    color: '#bf360c',
+    difficulty: 'beginner',
+    estimatedMinutes: 14,
+    lessons: [
+      {
+        id: 'tab-1',
+        title: 'Setting the Table — Why Ritual Matters',
+        imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `A properly set table is a contract. It tells the guest: I thought about you before you arrived.\n\nIn Japanese kaiseki cuisine, every detail of the table carries meaning. The plate is chosen for the season — rough stoneware in winter, cool porcelain in summer. The food is placed asymmetrically to echo nature. An odd number of items on each plate, because even numbers feel finished and nature never is.\n\nFrench *mise en place* — "everything in its place" — is the same idea expressed differently. Every fork, glass, and napkin has a position, and that position has a reason. The bread plate is on the left because you eat with your right. The water glass is above the knife because it's closest to your dominant hand.\n\nThese aren't arbitrary rules invented to make people uncomfortable. They're solutions to the problem of feeding multiple people gracefully. Every piece of table etiquette was once someone's practical innovation.\n\nThe real purpose of a well-set table isn't performance. It's permission. When everything is in its place, no one has to ask "where do I put this?" and everyone can focus on the conversation, the food, and each other.`,
+        funFact: 'Japanese kaiseki uses odd numbers on plates because even numbers feel complete — and nature never is.',
+        comparison: {
+          prompt: 'Which table calls to you?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: 'Japanese kaiseki',
+            description: 'Seasonal, asymmetric, every plate chosen for this moment.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: 'French bistro',
+            description: 'White tablecloth, proper settings, wine already poured.',
+          },
+          insight: 'Kaiseki honors the season. French service honors the guest. Both are rituals of attention — Japanese attention flows outward to nature, French attention flows inward to the table.',
+        },
+        quiz: {
+          question: 'Why does kaiseki use odd numbers of items on a plate?',
+          options: [
+            'Even numbers are considered unlucky in Japan',
+            'Odd numbers echo nature, which is never symmetrical or "finished"',
+            'It makes the food look more abundant',
+            'It\'s easier to arrange items in odd numbers',
+          ],
+          correctIndex: 1,
+          explanation: 'In kaiseki philosophy, even numbers feel complete and artificial. Nature grows in asymmetry — a branch has 3 flowers, not 4. Odd numbers keep the composition alive and unresolved.',
+        },
+      },
+      {
+        id: 'tab-2',
+        title: 'The Lost Art of Hosting',
+        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `Great hosting is invisible. The guest never sees the effort — only the ease.\n\nJulia Child understood this. She would famously make mistakes during dinner parties — drop things, overcook something — and turn each disaster into a joke. Her guests relaxed because *she* was relaxed. The meal wasn't a performance. It was a gift.\n\nThe single most important rule of hosting: your guests mirror your energy. If you're stressed, they're uncomfortable. If you're enjoying yourself, they will too. This means the host's job is not to create the perfect dinner — it's to create the conditions for a good time.\n\n**Practical wisdom:**\n\n- Cook something you've made before. Dinner parties are not the time to experiment.\n- Have everything ready before the first guest arrives. If you're still cooking when they walk in, you can't greet them properly.\n- Introduce people who don't know each other with a connection: "You both lived in Berlin" or "Maria, Tom knows more about jazz than anyone I know."\n- Fill the awkward first 15 minutes with a simple activity — making cocktails together, choosing music, arranging flowers.\n\nThe perfect meal is one where the host sat down with everyone else.`,
+        funFact: 'Julia Child turned cooking disasters into jokes at dinner parties. Her guests relaxed because she did.',
+        comparison: {
+          prompt: 'Which hosting style is more you?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: 'Formal dinner — everything curated',
+            description: 'Place cards, courses, proper wine for each dish.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: 'Kitchen party — everyone cooks',
+            description: 'No plan, everyone involved, wine already open.',
+          },
+          insight: 'The formal dinner says: I did this for you. The kitchen party says: let\'s do this together. Both are generous. The best hosts know which their guests need.',
+        },
+        quiz: {
+          question: 'What is the single most important hosting rule?',
+          options: [
+            'Serve an even number of courses',
+            'Your guests mirror your energy — if you\'re relaxed, they relax',
+            'Always serve wine from the guest\'s right side',
+            'Never seat couples next to each other',
+          ],
+          correctIndex: 1,
+          explanation: 'Guests take their emotional cues from the host. A stressed host creates tense guests. A relaxed, present host gives everyone permission to enjoy themselves.',
+        },
+      },
+      {
+        id: 'tab-3',
+        title: 'Coffee, Tea, and the Third Place',
+        imageUrl: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `The sociologist Ray Oldenburg coined the term "third place" — somewhere that is neither home (first place) nor work (second place). A place for community, conversation, lingering.\n\nThe Italian espresso bar is a perfect third place. You stand at the counter. You drink your espresso in three sips. You talk to the barista, the person next to you, or no one. It takes four minutes. The ritual is the point.\n\nThe Japanese tea ceremony is the opposite: 90 minutes of choreographed silence. Every gesture prescribed. The tea room is designed to hold four-and-a-half tatami mats — just enough space for intimacy, not enough for spectacle. Guests enter through a low door, forcing everyone — regardless of status — to bow.\n\nBoth are rituals of attention organized around a hot beverage. The Italian version strips everything to essentials: strong coffee, brief encounter, move on. The Japanese version expands everything to its maximum: preparing one cup of tea becomes an act that fills an hour.\n\nStarbucks tried to create a third place and became a second one — a place to work with headphones on. The third place doesn't survive being optimized. It survives being protected.`,
+        funFact: 'The Japanese tea room door is deliberately low — it forces everyone, regardless of rank, to bow when entering.',
+        comparison: {
+          prompt: 'Which ritual of attention?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80',
+            label: 'Italian espresso bar',
+            description: 'Three sips, four minutes, standing. Ritual compressed to its essence.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1545048702-79362596cdc9?w=800&q=80',
+            label: 'Japanese tea ceremony',
+            description: '90 minutes. Every gesture matters. Silence as communication.',
+          },
+          insight: 'The espresso bar says: presence can be brief but complete. The tea ceremony says: presence requires time to unfold. Both teach the same thing — being somewhere fully, even for a moment.',
+        },
+        quiz: {
+          question: 'What is a "third place"?',
+          options: [
+            'A restaurant that\'s third-best in the city',
+            'The third stop on a bar crawl',
+            'A place that is neither home nor work — designed for community and conversation',
+            'A restaurant with three Michelin stars',
+          ],
+          correctIndex: 2,
+          explanation: 'Sociologist Ray Oldenburg defined the "third place" as a space beyond home and work where community happens — cafés, barbershops, pubs. They thrive on low stakes and open access.',
+        },
+      },
+      {
+        id: 'tab-4',
+        title: 'Bread — The First Technology',
+        imageUrl: 'https://images.unsplash.com/photo-1549931319-a545753467c8?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `Bread is the oldest processed food. Humans have been baking it for at least 14,000 years — predating agriculture. We baked bread before we farmed grain.\n\nThis means bread didn't follow farming. Farming may have followed bread. The desire to bake — to transform an inedible grass seed into something nourishing and delicious through fire and fermentation — might be the reason we settled down and invented civilization.\n\nSourdough is the oldest leavening method. A culture of wild yeasts and bacteria, fed with flour and water, producing CO₂ that makes dough rise. Every sourdough starter is unique — its bacterial ecosystem reflects the air, water, and flour of its specific place. San Francisco sourdough tastes different from Paris sourdough because the microbes are different.\n\nIndustrial bread replaced this with commercial yeast (fast, predictable, identical) and additives that keep bread soft for weeks. It's an engineering triumph and a culinary tragedy. It's bread stripped of place, time, and craft.\n\nThe sourdough revival isn't nostalgia. It's a recognition that something essential was lost. When you bake sourdough, you're doing the same thing humans did 14,000 years ago — transforming grain with fire and patience. The starter is alive. The bread is different every time. There's no algorithm for it.\n\nBread is the original Made by Humans.`,
+        funFact: 'Bread predates agriculture. We may have invented farming specifically to bake more bread.',
+        comparison: {
+          prompt: 'Which bread?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1549931319-a545753467c8?w=800&q=80',
+            label: 'Sourdough — slow fermentation',
+            description: '14,000 years of tradition. Wild yeast, time, hands. Different every time.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+            label: 'Industrial — engineered perfection',
+            description: 'Identical, stable, available. Optimized for scale, not soul.',
+          },
+          insight: 'Sourdough is alive, unpredictable, rooted in place. Industrial bread is consistent, reliable, rootless. This isn\'t just about bread — it\'s the central tension of the modern world. Craft vs. scale. Made by Humans vs. made by machines.',
+        },
+        quiz: {
+          question: 'What makes sourdough unique to its location?',
+          options: [
+            'The flour is always different',
+            'The oven temperature varies by region',
+            'Each starter\'s bacterial ecosystem reflects the local air, water, and flour — different microbes, different taste',
+            'Local bakers guard secret recipes passed down for generations',
+          ],
+          correctIndex: 2,
+          explanation: 'Every sourdough starter is a unique ecosystem of wild yeasts and bacteria from its specific environment. San Francisco sourdough differs from Paris sourdough because the microbes in the air and water are different.',
         },
       },
     ],
