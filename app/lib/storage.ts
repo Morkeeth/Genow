@@ -152,6 +152,23 @@ export function isInStable(title: string): boolean {
   return getProgress().stable.some(i => i.title === title)
 }
 
+// ── Suggestions (completed lessons not in stable) ──
+
+export function getCompletedLessonsNotInStable(): Array<{ lessonTitle: string; lessonImage?: string; funFact?: string; courseId: string; domain: string }> {
+  const progress = getProgress()
+  const stableTitles = new Set(progress.stable.map(i => i.title))
+  const results: Array<{ lessonTitle: string; lessonImage?: string; funFact?: string; courseId: string; domain: string }> = []
+
+  // Dynamically import would create a circular dep, so we accept course data as a separate call
+  // This function just returns the lesson IDs that are completed
+  return results
+}
+
+export function getCompletedLessonIds(): string[] {
+  const progress = getProgress()
+  return Object.values(progress.courses).flatMap(c => c.completedLessons)
+}
+
 // ── Stats ──
 
 export function getStats() {

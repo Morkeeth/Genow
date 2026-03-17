@@ -53,6 +53,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',
         content: `Claude Monet didn't paint things. He painted what light did to things.\n\nHe would set up multiple canvases in a row and switch between them as the sun moved. His series of Rouen Cathedral — over 30 paintings of the same building — shows how completely different a single subject looks at dawn, noon, and dusk.\n\nHe spent the last 30 years of his life painting his water garden in Giverny. Over 250 paintings of water lilies. By the end, his eyesight was failing from cataracts, and the paintings became more abstract — more blurred, more dissolved.\n\nHis failing eyes pushed him toward abstraction decades before it became a movement.`,
         funFact: 'Monet painted the same cathedral 30+ times — once for every change of light.',
+        comparison: {
+          prompt: 'Which light calls to you?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',
+            label: 'Monet — Water Lilies',
+            description: 'Dissolved color, floating light, pure atmosphere',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Claude_Monet_-_Rouen_Cathedral%2C_Facade_%28Sunset%29.jpg/800px-Claude_Monet_-_Rouen_Cathedral%2C_Facade_%28Sunset%29.jpg',
+            label: 'Monet — Rouen Cathedral (Sunset)',
+            description: 'Solid stone dissolved by golden light. Structure melting.',
+          },
+          insight: 'Monet painted both — nature dissolving into itself, and architecture dissolving under light. He wasn\'t painting things. He was painting what happens between your eye and the world.',
+        },
         quiz: {
           question: 'Why did Monet set up multiple canvases side by side?',
           options: [
@@ -71,6 +85,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg',
         content: `If Monet painted light, Pierre-Auguste Renoir painted happiness.\n\nHis masterpiece *Bal du moulin de la Galette* shows a Sunday afternoon dance in Montmartre. Dappled sunlight falls through trees onto dancing couples. Everyone is smiling. The light is golden and warm.\n\nRenoir was the son of a tailor and a seamstress. He started as a porcelain painter at 13. He never forgot what it felt like to be poor, and he spent his life painting abundance — full tables, rosy cheeks, sun-drenched afternoons.\n\nIn his final years, his hands were so crippled by rheumatoid arthritis that brushes had to be strapped to his fingers. He kept painting. When asked why he continued through such pain, he said: "The pain passes, but the beauty remains."`,
         funFact: '"The pain passes, but the beauty remains." — Renoir, painting with brushes strapped to arthritic hands.',
+        comparison: {
+          prompt: 'Which celebration would you rather be at?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg/1280px-Pierre-Auguste_Renoir%2C_Le_Moulin_de_la_Galette.jpg',
+            label: 'Renoir — Bal du moulin de la Galette',
+            description: 'Outdoor dance, dappled sunlight, everyone smiling',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg/1280px-Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg',
+            label: 'Manet — A Bar at the Folies-Bergère',
+            description: 'Crowded room, distant gaze, glamorous but lonely',
+          },
+          insight: 'Renoir sees the joy from inside. Manet sees it from behind the bar. Same Parisian nightlife — one is warm, the other is watching. Your choice says something about how you experience a room.',
+        },
         quiz: {
           question: 'What did Renoir say when asked why he kept painting despite his arthritis?',
           options: [
@@ -89,6 +117,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Edgar_Degas_-_La_classe_de_danse_1874.jpg/1098px-Edgar_Degas_-_La_classe_de_danse_1874.jpg',
         content: `Edgar Degas hated being called an Impressionist. He preferred "Realist." But his work hung in their exhibitions, so the name stuck.\n\nDegas didn't paint landscapes or sunlight. He painted ballet dancers — but never during performances. He painted them stretching, resting, adjusting their shoes, practicing in empty studios. The unglamorous moments.\n\nHis compositions look like photographs — figures cut off at the edge, shot from odd angles, caught mid-movement. This wasn't accidental. Photography was new, and Degas studied it obsessively. He wanted paintings that felt like glimpsed moments, not posed scenes.\n\nMore than half of his works feature dancers. He knew their world intimately — the exhaustion, the discipline, the brief moments of grace.`,
         funFact: 'Degas hated being called an Impressionist. He painted ballet dancers at rest, never performing.',
+        comparison: {
+          prompt: 'Which perspective draws you in?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Edgar_Degas_-_La_classe_de_danse_1874.jpg/1098px-Edgar_Degas_-_La_classe_de_danse_1874.jpg',
+            label: 'Degas — The Dance Class',
+            description: 'Intimate, voyeuristic. Caught from the corner of the room.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gustave_Caillebotte_-_Jour_de_pluie_%C3%A0_Paris.jpg/1280px-Gustave_Caillebotte_-_Jour_de_pluie_%C3%A0_Paris.jpg',
+            label: 'Caillebotte — Paris Street, Rainy Day',
+            description: 'Geometric, detached. The city as a machine of solitude.',
+          },
+          insight: 'Degas gets close — almost too close. Caillebotte steps back — almost too far. Both use unusual angles to show what traditional painting hides: life unposed.',
+        },
         quiz: {
           question: 'What made Degas\'s compositions look unusual for his time?',
           options: [
@@ -121,6 +163,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
         content: `Van Gogh painted this from the window of his asylum room in Saint-Rémy-de-Provence. He had voluntarily committed himself after severing part of his ear.\n\nThe swirling sky isn't madness on canvas — modern physicists discovered the turbulence patterns match Kolmogorov's mathematical model of turbulent flow with uncanny precision. Van Gogh was painting real physics he could somehow *see*.\n\nThe village below is calm, almost geometric. The cypress tree in the foreground reaches up like a dark flame connecting earth to sky.\n\nHe painted it from memory during the day, not at night. The starry sky was how he *remembered* feeling, not what he saw.`,
         funFact: 'The swirl patterns match a real mathematical model of turbulence. Van Gogh saw physics.',
+        comparison: {
+          prompt: 'Which night sky speaks to you?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',
+            label: 'Van Gogh — The Starry Night',
+            description: 'Turbulent, electric. The sky is alive and writhing.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Edvard_Munch_-_Starry_Night_%281922%29.jpg/800px-Edvard_Munch_-_Starry_Night_%281922%29.jpg',
+            label: 'Munch — Starry Night',
+            description: 'Heavy, brooding. The sky weighs on the land like a presence.',
+          },
+          insight: 'Van Gogh\'s sky moves. Munch\'s sky presses. Both painted what they felt, not what they saw — but Van Gogh found ecstasy where Munch found dread.',
+        },
         quiz: {
           question: 'When did Van Gogh paint The Starry Night?',
           options: [
@@ -171,6 +227,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg',
         content: `Hokusai was 70 years old when he made this. He said: "All I have produced before the age of seventy is not worth taking into account."\n\nLook past the wave. Mount Fuji sits in the background — tiny, still, eternal. The fishermen in three boats cling to their vessels. The wave towers above everything, its fingers of foam reaching like claws.\n\nThis is a woodblock print, not a painting. Each color required a separate carved block, perfectly aligned. Thousands of copies were printed — this was pop art, sold for the price of a bowl of noodles.\n\nThe Prussian blue pigment was brand new to Japan, recently imported from Europe. Hokusai was one of the first to use it. Debussy hung a copy above his piano. It inspired *La Mer*.`,
         funFact: 'Hokusai was 70. It sold for the price of noodles. Debussy hung it above his piano.',
+        comparison: {
+          prompt: 'Which force of nature captivates you?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1280px-Tsunami_by_hokusai_19th_century.jpg',
+            label: 'Hokusai — The Great Wave',
+            description: 'Controlled chaos. Every foam claw is placed with precision.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour%27s_Mouth_-_WGA23178.jpg/1280px-Joseph_Mallord_William_Turner_-_Snow_Storm_-_Steam-Boat_off_a_Harbour%27s_Mouth_-_WGA23178.jpg',
+            label: 'Turner — Snow Storm',
+            description: 'Pure dissolve. The storm swallows the ship whole.',
+          },
+          insight: 'Hokusai commands the wave — every line is deliberate. Turner surrenders to it — the painting itself seems to spin. East and West, both painting nature\'s power, but one masters it and the other submits.',
+        },
         quiz: {
           question: 'What is The Great Wave technically?',
           options: [
@@ -189,6 +259,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/en/7/74/Guernica.jpg',
         content: `On April 26, 1937, Nazi warplanes bombed the Basque town of Guernica. It was market day. The bombing lasted three hours.\n\nPicasso, living in Paris, read about it in the newspaper. He completed this 11-foot-tall, 25-foot-wide mural in just over a month.\n\nThere is no color. Only black, white, and grey — like the newspaper photos that brought the horror to the world. A bull stands over a woman holding her dead child. A horse screams. A light bulb shaped like an evil eye illuminates the scene.\n\nWhen asked by a Nazi officer if he had made this painting, Picasso replied: "No, you did."\n\nDuring Franco's dictatorship, Picasso refused to let it return to Spain. It went home in 1981, six years after Franco's death.`,
         funFact: 'A Nazi officer asked Picasso if he made this. "No, you did."',
+        comparison: {
+          prompt: 'Which protest painting hits harder?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/en/7/74/Guernica.jpg',
+            label: 'Picasso — Guernica (1937)',
+            description: 'Fractured, symbolic. Horror abstracted into geometry.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg',
+            label: 'Goya — The Third of May 1808',
+            description: 'Figurative, raw. You see the faces. You see the guns.',
+          },
+          insight: 'Goya shows you the execution so you can\'t look away. Picasso shatters the image so you can\'t piece it together. 130 years apart, both asking: will you remember this?',
+        },
         quiz: {
           question: 'Why is Guernica painted only in black, white, and grey?',
           options: [
@@ -225,6 +309,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Cabernet Sauvignon is the most planted grape in the world. It grows almost everywhere, and almost everywhere it makes something good.\n\nIt's a genetic cross between Cabernet Franc and Sauvignon Blanc — an accidental marriage discovered in a 17th-century Bordeaux vineyard. The result: small, thick-skinned berries packed with tannin, color, and flavor.\n\nIn Bordeaux, it's blended with Merlot and other grapes. In Napa Valley, it stands alone. Both approaches produce legendary wines.\n\nThe flavor profile is distinctive: blackcurrant (cassis), cedar, tobacco, and often a touch of green bell pepper. That pepper note comes from a compound called pyrazine — if you can smell it, you'll never un-smell it.\n\nCabernet ages beautifully. Those aggressive tannins soften over decades into velvet.`,
         funFact: 'Cabernet Sauvignon is an accident — a natural cross between two other grapes in a Bordeaux vineyard.',
+        comparison: {
+          prompt: 'Which power do you respect more?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            label: 'Bordeaux Cabernet — blended',
+            description: 'Structured, restrained. Power through patience and tradition.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+            label: 'Napa Cabernet — solo',
+            description: 'Bold, ripe, unapologetic. Power through intensity.',
+          },
+          insight: 'Bordeaux blends Cabernet with other grapes for balance. Napa lets it stand alone. Same grape, two philosophies: the team player vs. the soloist.',
+        },
         quiz: {
           question: 'What two grapes naturally crossed to create Cabernet Sauvignon?',
           options: [
@@ -277,6 +375,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Merlot got a bad reputation. The movie *Sideways* (2004) had a famous line — "I am NOT drinking any Merlot!" — and overnight, Merlot sales dropped across America.\n\nThe irony? The wine the character *loved* — Château Cheval Blanc — is mostly Merlot.\n\nMerlot is Cabernet's softer sibling. Where Cabernet is angular and tannic, Merlot is round and plush. Plums instead of blackcurrants. Chocolate instead of cedar. It's approachable young but can age with grace.\n\nIn Bordeaux's Right Bank — Pomerol and Saint-Émilion — Merlot dominates. Château Pétrus, one of the most expensive wines on Earth, is nearly 100% Merlot.\n\nDon't let a movie script tell you what to drink.`,
         funFact: 'The wine the Sideways character loved most — Château Cheval Blanc — is mostly Merlot.',
+        comparison: {
+          prompt: 'Which side of Merlot?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+            label: 'Right Bank Bordeaux Merlot',
+            description: 'Elegant, silky. Pomerol\'s velvet in a glass.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            label: 'New World Merlot',
+            description: 'Plush, fruity, generous. Ripe plums and chocolate.',
+          },
+          insight: 'Right Bank Merlot whispers wealth. New World Merlot shouts welcome. The grape adapts to its home — and both homes make something worth drinking.',
+        },
         quiz: {
           question: 'What happened to Merlot sales after the movie Sideways?',
           options: [
@@ -296,6 +408,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Syrah in France. Shiraz in Australia. Same grape, wildly different personalities.\n\nIn the Northern Rhône — Hermitage, Côte-Rôtie — Syrah makes elegant, peppery, smoky wines with notes of violets and dark fruit. These are some of the longest-lived wines in the world.\n\nIn Australia's Barossa Valley, the same grape becomes Shiraz: bigger, bolder, riper. Dark chocolate, espresso, blackberry jam. Turn the volume up to 11.\n\nThe grape's origin was a mystery for centuries. Legend placed it in Shiraz, Persia. DNA testing revealed the truth: it's a cross between two obscure French grapes, Dureza and Mondeuse Blanche. Not exotic at all — just French.\n\nBut it adapts to its home like no other grape. Same DNA, completely different expression. That's the magic of wine.`,
         funFact: 'DNA proved Syrah isn\'t from Persia — it\'s a cross between two obscure French grapes.',
+        comparison: {
+          prompt: 'Which character do you prefer?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1569919659476-f0852f9186be?w=800&q=80',
+            label: 'Northern Rhône Syrah',
+            description: 'Peppery, smoky, violets. Brooding elegance.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+            label: 'Barossa Valley Shiraz',
+            description: 'Blackberry jam, espresso, dark chocolate. Volume at 11.',
+          },
+          insight: 'Same DNA, different soul. The Rhône makes Syrah introspective. Australia makes it extroverted. Your preference reveals whether you want your wine to whisper or shout.',
+        },
         quiz: {
           question: 'Where does Syrah/Shiraz actually originate?',
           options: [
@@ -320,7 +446,7 @@ export const courses: Course[] = [
     imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
     color: '#880e4f',
     difficulty: 'beginner',
-    estimatedMinutes: 8,
+    estimatedMinutes: 12,
     lessons: [
       {
         id: 'taste-1',
@@ -329,6 +455,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Tilt your glass over a white surface. The color tells you more than you'd think.\n\n**Red wines** start purple-ruby when young and fade to garnet-brick with age. A deep, opaque red suggests thick-skinned grapes (Cabernet, Syrah) or warm climates. A pale, translucent red suggests thin-skinned grapes (Pinot Noir) or cool climates.\n\n**White wines** go the opposite direction: pale straw when young, deepening to gold and amber with age. If a white wine looks dark gold, it's either old, oak-aged, or both.\n\nLook at the "legs" — the rivulets that run down the glass after swirling. Thick, slow legs mean higher alcohol or sugar. It's physics (the Marangoni effect), not quality.`,
         funFact: 'Red wines get lighter with age. White wines get darker. They meet in the middle.',
+        comparison: {
+          prompt: 'Which glass tells you more at a glance?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            label: 'Deep ruby — young wine',
+            description: 'Opaque, purple-edged. Thick-skinned grapes, warm climate.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+            label: 'Pale gold — aged white',
+            description: 'Deepened with time. Oak, age, or both.',
+          },
+          insight: 'Before you smell or taste anything, color has already told you the grape, the age, and the climate. Learning to read a glass is the fastest shortcut in wine.',
+        },
         quiz: {
           question: 'What do thick, slow "legs" on a wine glass indicate?',
           options: [
@@ -348,6 +488,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `80% of what you "taste" is actually smell. Your tongue detects only five things: sweet, sour, salty, bitter, umami. Everything else — cherry, vanilla, leather, wet stone — that's your nose.\n\nFirst, smell the wine without swirling. These are the lightest, most volatile aromas: flowers, citrus, fresh fruit.\n\nThen swirl and smell again. The oxygen releases heavier compounds: spice, oak, earth, dried fruit.\n\n**Don't overthink it.** When you smell something, your brain is pattern-matching against memories. If it smells like your grandmother's garden — say that. If it smells like a new book — say that. There are no wrong answers.\n\nThe vocabulary will come with practice. The most important skill is paying attention.`,
         funFact: '80% of what you "taste" is actually smell. Your tongue only detects 5 basic tastes.',
+        comparison: {
+          prompt: 'Which nose intrigues you more?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            label: 'Fruit-forward bouquet',
+            description: 'Cherry, blackberry, vanilla. The wine greets you immediately.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            label: 'Earthy, terroir-driven',
+            description: 'Wet stone, mushroom, forest floor. You have to go looking.',
+          },
+          insight: 'Fruit-forward wines are extroverts — they introduce themselves. Earthy wines are introverts — you have to lean in. Neither is better. But knowing which you prefer is knowing your taste.',
+        },
         quiz: {
           question: 'Why should you smell wine before AND after swirling?',
           options: [
@@ -367,6 +521,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Take a sip. Don't swallow immediately. Let it coat your mouth.\n\nYou're looking for four things:\n\n**Sweetness** — detected at the tip of the tongue. Most table wines are dry (no residual sugar), but fruit flavors can trick you into thinking a wine is sweet when it isn't.\n\n**Acidity** — that mouth-watering, salivating sensation. It makes wine feel fresh and alive. Low acid wines feel flat and flabby.\n\n**Tannin** (reds only) — the drying, gripping sensation on your gums, like over-steeped tea. Tannins come from grape skins, seeds, and oak barrels. They soften with age.\n\n**Body** — is it light like water, medium like milk, or full like cream? This comes from alcohol, sugar, and extract.\n\nThe best wines have *balance* — no single element dominates. Acidity, tannin, fruit, and alcohol in harmony.`,
         funFact: 'Tannin is the same compound that makes over-steeped tea taste drying and bitter.',
+        comparison: {
+          prompt: 'Which structure do you prefer in your glass?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1569919659476-f0852f9186be?w=800&q=80',
+            label: 'Bold, tannic red',
+            description: 'Gripping, drying, powerful. Demands food and patience.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+            label: 'Crisp, high-acid white',
+            description: 'Electric, mouth-watering, refreshing. Demands nothing but attention.',
+          },
+          insight: 'Tannin is architecture — it gives red wine its skeleton. Acidity is nerve — it gives white wine its life. Both are structure. Your preference reveals whether you like wine that grips or wine that lifts.',
+        },
         quiz: {
           question: 'What does "balance" mean when describing wine?',
           options: [
@@ -377,6 +545,39 @@ export const courses: Course[] = [
           ],
           correctIndex: 1,
           explanation: 'A balanced wine has harmony between its key structural elements — acidity, tannin, fruit, and alcohol — with none overpowering the others.',
+        },
+      },
+      {
+        id: 'taste-4',
+        title: 'Think — What to Say About Wine',
+        imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `You've looked, smelled, and sipped. Now comes the hardest part: saying what you think.\n\nWine language has a reputation for pretension. "Notes of pencil shavings and wet gravel with a hint of grandmother's attic." This doesn't help anyone.\n\nHere's the secret: the best tasters use simple, honest words. Robert Parker, the most influential wine critic ever, described great wines in terms anyone could understand — "a massive, chewy, fleshy wine." That's not pretentious. That's precise.\n\n**Three things to say about any wine:**\n\n1. *Is it light or heavy?* (Like skim milk, whole milk, or cream)\n2. *What fruit do you taste?* (Red fruit like cherry? Dark fruit like plum? Citrus? Tropical?)\n3. *Do you like it?* This is the only question that actually matters.\n\nThe vocabulary will come. What matters now is paying attention. A wine you can describe — even badly — is a wine you'll remember.`,
+        funFact: 'The world\'s most influential wine critic, Robert Parker, was a lawyer with no formal wine training.',
+        comparison: {
+          prompt: 'Which tasting note do you trust more?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+            label: '"Pencil shavings, wet gravel, grandmother\'s attic"',
+            description: 'Poetic, specific, possibly showing off.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            label: '"A big, chewy red with dark fruit. I\'d drink this again."',
+            description: 'Plain, honest, useful. You know what you\'re getting.',
+          },
+          insight: 'The fancy note might be more accurate. But the honest one is more helpful. The best tasters can do both — but they start with honest.',
+        },
+        quiz: {
+          question: 'What is the most important question when tasting wine?',
+          options: [
+            'Can you identify the grape variety?',
+            'Can you name the region?',
+            'Do you like it?',
+            'Can you detect the oak aging?',
+          ],
+          correctIndex: 2,
+          explanation: 'All the technical analysis in the world is secondary to the fundamental question: do you enjoy this wine? Your palate is yours. Trust it.',
         },
       },
     ],
@@ -403,6 +604,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `In 1919, Walter Gropius opened a school in Weimar, Germany with a radical idea: no distinction between artist and craftsman. A painter should learn to weave. A sculptor should learn to build furniture.\n\nThe Bauhaus lasted only 14 years. The Nazis closed it in 1933, calling it "degenerate." In those 14 years, it changed everything.\n\nMarcel Breuer invented the tubular steel chair — the one in every office you've ever worked in. Paul Klee and Wassily Kandinsky taught there simultaneously.\n\n"Form follows function" is often attributed to the Bauhaus, but they believed something subtler: form and function are inseparable. Beauty isn't decoration added on top. Beauty is what happens when something works perfectly.\n\nEvery minimal website, every clean app interface — that's Bauhaus.`,
         funFact: 'The Bauhaus lasted only 14 years before the Nazis closed it. Those 14 years changed everything.',
+        comparison: {
+          prompt: 'Which revolution in design?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+            label: 'Bauhaus — clean geometric form',
+            description: 'Strip away. Function is beauty. Less is the answer.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: 'Art Nouveau — organic ornament',
+            description: 'Nature as design. Every surface alive with flowing line.',
+          },
+          insight: 'Bauhaus killed ornament. Art Nouveau worshipped it. Both were revolutionary in their time — one by adding everything, the other by removing it. The pendulum always swings.',
+        },
         quiz: {
           question: 'What was the Bauhaus\'s radical founding idea?',
           options: [
@@ -422,6 +637,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Dieter Rams spent 40 years as head of design at Braun. Every product he made still looks modern.\n\nHis principle: *Weniger, aber besser* — less, but better. Every element must justify its existence. If it doesn't serve function or understanding, remove it.\n\nHis ten principles of good design became a manifesto:\n\n• Good design is innovative\n• Good design makes a product useful\n• Good design is aesthetic\n• Good design is unobtrusive\n• Good design is honest\n• Good design is long-lasting\n• Good design is thorough down to the last detail\n• Good design is as little design as possible\n\nJony Ive cited Rams as his primary inspiration. The iPod, iPhone, MacBook — they're all conversations with Rams's work from decades earlier.\n\nRams is now in his 90s. He worries we're drowning in badly designed things. He might be right.`,
         funFact: '"Less, but better." The iPod was a direct conversation with Rams\'s Braun designs.',
+        comparison: {
+          prompt: 'Which simplicity?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+            label: 'Braun — Rams\'s original',
+            description: '1960s purity. Every element earns its place.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+            label: 'Apple — Ive\'s response',
+            description: 'Decades later, the conversation continues in aluminum and glass.',
+          },
+          insight: 'Ive didn\'t copy Rams — he replied. The Braun T3 and the iPod are separated by 40 years but connected by the same question: what happens when you remove everything unnecessary?',
+        },
         quiz: {
           question: 'What does Rams\'s motto "Weniger, aber besser" mean?',
           options: [
@@ -479,7 +708,7 @@ export const courses: Course[] = [
     imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
     color: '#1565c0',
     difficulty: 'beginner',
-    estimatedMinutes: 8,
+    estimatedMinutes: 15,
     lessons: [
       {
         id: 'soc-1',
@@ -488,6 +717,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `The best conversationalists are not great talkers. They are great listeners who ask the right questions.\n\nSocrates knew this. His method wasn't lecturing — it was asking questions that made the other person discover the answer themselves.\n\n**Ask follow-up questions.** When someone tells you something, resist the urge to share your own experience. Ask: "What happened then?" People remember how you made them feel, not what you said.\n\n**Be comfortable with silence.** A pause after someone speaks isn't awkward — it's respectful. It means you're actually thinking.\n\n**Match energy, not topic.** If someone is excited about something you know nothing about, don't redirect. Ask them to explain. Their enthusiasm is the gift.\n\nThe French call it *l'art de la conversation* — treating a conversation like a tennis rally. The goal is to keep the ball in the air, not to win.`,
         funFact: 'The French treat conversation like tennis — the goal is rallying, not winning.',
+        comparison: {
+          prompt: 'Which table would you rather sit at?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: 'Intimate dinner for four',
+            description: 'Candlelight, close quarters. Every word lands.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: 'Long table with friends',
+            description: 'Laughter, chaos, cross-talk. Energy everywhere.',
+          },
+          insight: 'The intimate table rewards depth. The long table rewards energy. Great conversationalists can navigate both — but everyone has a table that feels like home.',
+        },
         quiz: {
           question: 'According to the Socratic method, the most powerful conversation technique is:',
           options: [
@@ -507,6 +750,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Table placement at a dinner party is never random. In French dining tradition, the host and hostess sit at opposite ends. The most important guest sits to the right of the host. Couples are separated to encourage new conversations.\n\nKnowing this means you can read the social dynamics of any gathering before a word is spoken.\n\n**The bread rule:** your bread plate is on your left, your drink is on your right. Make "OK" signs with both hands — left makes a "b" (bread), right makes a "d" (drink).\n\n**Fork and knife signals:** Finished? Place both parallel on the plate at 4 o'clock. Pausing? Cross them in an X on the plate. Waitstaff are trained to read these.\n\n**The real skill** isn't memorizing rules — it's making everyone around you comfortable. The person who notices someone is left out and brings them into the conversation has more social intelligence than someone who knows which fork to use.`,
         funFact: 'Your silverware talks: crossed = pausing, parallel at 4 o\'clock = finished.',
+        comparison: {
+          prompt: 'Which setting feels more like you?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: 'Formal reception',
+            description: 'Place cards, protocol, silverware signals. Every detail speaks.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: 'Garden gathering',
+            description: 'No assigned seats, no rules. The host just makes everyone comfortable.',
+          },
+          insight: 'Formal settings have invisible rules that make everyone equal. Casual settings have no rules — which means someone has to do the work of inclusion. The best hosts can do both.',
+        },
         quiz: {
           question: 'At a formal dinner, where does the most important guest sit?',
           options: [
@@ -517,6 +774,72 @@ export const courses: Course[] = [
           ],
           correctIndex: 2,
           explanation: 'In French dining tradition, the guest of honor sits to the right of the host. The second most important guest sits to the right of the hostess.',
+        },
+      },
+      {
+        id: 'soc-3',
+        title: 'The Art of the Question',
+        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `The most powerful tool in conversation isn't a statement. It's a question.\n\nClosed questions kill momentum: "Did you enjoy the trip?" → "Yes." Dead end. Open questions create space: "What surprised you most about the trip?" → a story, an insight, a connection.\n\nThe best interviewers — Terry Gross, David Letterman, Oprah — all share one technique: they ask a question, then they *shut up*. The silence after a question is where the interesting answer lives. Most people rush to fill it. Don't.\n\n**The "why" chain** is the simplest tool. Whatever someone tells you, ask why. Then ask why again. Three levels of "why" and you've moved from small talk to real conversation.\n\n"I just changed careers." → "What made you decide to leave?" → "What was the moment you knew?" → Now you're talking about something that matters.\n\nPeople don't remember what you told them. They remember how deeply you listened.`,
+        funFact: 'Three levels of "why" takes any conversation from surface to substance.',
+        comparison: {
+          prompt: 'Which question opens more doors?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: '"What do you do for work?"',
+            description: 'Safe, standard. Everyone asks it. Gets a job title, not a person.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: '"What are you most excited about right now?"',
+            description: 'Unexpected. Gets passion instead of a résumé.',
+          },
+          insight: 'The first question sorts people into categories. The second question finds what makes them light up. Both work — but only one leads somewhere interesting.',
+        },
+        quiz: {
+          question: 'What do the best interviewers consistently do after asking a question?',
+          options: [
+            'Immediately follow up with another question',
+            'Share a related personal story',
+            'Stay silent and let the person fill the space',
+            'Nod enthusiastically to show engagement',
+          ],
+          correctIndex: 2,
+          explanation: 'The silence after a question is where the real answer lives. Great interviewers ask, then wait. Most people rush to fill silence — resist that urge.',
+        },
+      },
+      {
+        id: 'soc-4',
+        title: 'Graceful Exits and Memorable Goodbyes',
+        imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `How you leave matters more than how you arrive.\n\nPsychologists call it the "peak-end rule" — people judge an experience largely by how it felt at its most intense point and at the end. A mediocre party with a great goodbye is remembered better than a great party with an awkward exit.\n\n**The Irish goodbye** — leaving without telling anyone — has its defenders. It avoids the 45-minute exit conversation. It's efficient. But it also leaves people wondering where you went. Use it only at large parties where your departure genuinely won't be noticed.\n\n**The gratitude close** — find the host, make eye contact, and say one specific thing: "That risotto was the best I've had this year" beats "Great party, thanks." Specificity proves you were paying attention.\n\n**The connector exit** — before you leave, introduce two people who don't know each other but should. "Before I go — Maria, this is James. You both spent time in Kyoto." Now your absence creates a new conversation.\n\nThe last impression is the lasting impression. Make it count.`,
+        funFact: 'The "peak-end rule": people judge experiences by the peak moment and the ending. The goodbye IS the memory.',
+        comparison: {
+          prompt: 'Which exit is more your style?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            label: 'The Irish Goodbye',
+            description: 'Just vanish. No fuss, no ceremony. Efficient and mysterious.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            label: 'The Grand Farewell',
+            description: 'Find the host. Say something specific. Leave a lasting impression.',
+          },
+          insight: 'The Irish goodbye preserves energy. The grand farewell invests it. Both can work — but only one makes the host glad you came.',
+        },
+        quiz: {
+          question: 'What is the "peak-end rule"?',
+          options: [
+            'Parties peak at midnight and end by 2am',
+            'People judge experiences by the most intense moment and the ending',
+            'You should always arrive at the peak of the party',
+            'The end of a conversation is the best time to make a request',
+          ],
+          correctIndex: 1,
+          explanation: 'Psychologists found that memories of experiences are disproportionately shaped by the peak (most intense) moment and the ending. A great goodbye can redeem a mediocre evening.',
         },
       },
     ],
@@ -574,6 +897,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Yves_Klein_-_IKB_191.jpg/800px-Yves_Klein_-_IKB_191.jpg',
         content: `Blue is the color of distance. Mountains on the horizon turn blue. The sky is blue because light scatters. Blue is always somewhere else.\n\nFor most of human history, blue pigment was almost impossibly expensive. Ultramarine — literally "beyond the sea" — was made from lapis lazuli mined in Afghanistan. It cost more than gold per ounce. Painters reserved it for the most sacred subjects: the Virgin Mary's cloak.\n\nIn 1960, Yves Klein patented his own blue — International Klein Blue (IKB). He mixed pure ultramarine pigment with a synthetic resin that preserved its raw intensity. Then he painted entire canvases with nothing but this blue. No image. No composition. Just blue.\n\nHe said blue has "no dimension. It is beyond dimension."\n\nPicasso had a Blue Period. Miles Davis recorded *Kind of Blue*. We feel "blue." No other color carries this much emotional weight.`,
         funFact: 'Ultramarine blue was made from lapis lazuli and cost more than gold. Only the Virgin Mary deserved it.',
+        comparison: {
+          prompt: 'Which blue?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Yves_Klein_-_IKB_191.jpg/800px-Yves_Klein_-_IKB_191.jpg',
+            label: 'Yves Klein — IKB 191',
+            description: 'Pure pigment. No image, no form. Just blue, infinite.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg',
+            label: 'Vermeer — Girl with a Pearl Earring',
+            description: 'Lapis lazuli turban. Blue used with precision and restraint.',
+          },
+          insight: 'Klein drowned the canvas in blue to find infinity. Vermeer used a sliver of the same pigment to find a person. One says blue IS the artwork. The other says blue serves the artwork. Both are right.',
+        },
         quiz: {
           question: 'Why was ultramarine blue so expensive historically?',
           options: [
@@ -624,6 +961,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ad_Reinhardt_-_Abstract_painting_-_1963.jpg/800px-Ad_Reinhardt_-_Abstract_painting_-_1963.jpg',
         content: `Pierre Soulages, the French painter who died at 102, spent his career painting only in black. He called his work "Outrenoir" — beyond black.\n\nHis canvases look black from a distance. But move around them and they come alive: the thick, ridged paint catches light differently from every angle. The paintings are about light, made entirely with its absence.\n\nAd Reinhardt's "black paintings" take this further. They look uniformly black. Stand with them for five minutes. Slowly, dark reds, blues, and greens emerge from what you thought was nothing. Reinhardt said: "Looking is not as simple as it looks."\n\nIn fashion, Coco Chanel introduced the little black dress in 1926. Before Chanel, black meant mourning. After Chanel, black meant elegance. One garment changed a color's meaning forever.\n\nBlack absorbs everything. That's why it contains everything.`,
         funFact: 'Soulages painted only in black for decades. He called it "Outrenoir" — beyond black. The paintings are about light.',
+        comparison: {
+          prompt: 'Which darkness?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ad_Reinhardt_-_Abstract_painting_-_1963.jpg/800px-Ad_Reinhardt_-_Abstract_painting_-_1963.jpg',
+            label: 'Reinhardt — Abstract Painting',
+            description: 'Looks black. Stare long enough and colors emerge from nothing.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/1280px-Caravaggio_-_The_Calling_of_Saint_Matthew.jpg',
+            label: 'Caravaggio — The Calling of Saint Matthew',
+            description: 'Theatrical darkness. A beam of light cuts through shadow like a blade.',
+          },
+          insight: 'Reinhardt hides light inside darkness — you have to earn it by looking. Caravaggio weaponizes light against darkness — you can\'t escape it. Both understood: without dark, light means nothing.',
+        },
         quiz: {
           question: 'What does Pierre Soulages\'s term "Outrenoir" mean?',
           options: [
@@ -647,11 +998,11 @@ export const courses: Course[] = [
     domain: 'wine',
     title: 'White Grapes That Matter',
     subtitle: 'The other half of the story',
-    description: 'Chardonnay, Riesling, Sauvignon Blanc — the whites that built empires.',
+    description: 'Chardonnay, Riesling, Sauvignon Blanc, Chenin Blanc — the whites that built empires.',
     imageUrl: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
     color: '#f9a825',
     difficulty: 'beginner',
-    estimatedMinutes: 12,
+    estimatedMinutes: 15,
     lessons: [
       {
         id: 'wh-1',
@@ -693,6 +1044,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Riesling might be the most misunderstood grape in the world. Most people think it's sweet. Most Riesling is dry.\n\nThe confusion is understandable — Riesling *can* be sweet, and beautifully so. But the same grape makes bone-dry wines with electric acidity that can age for decades.\n\nRiesling's gift is transparency. More than any other grape, it transmits the character of where it grew. German Riesling from slate soil tastes like steel and stone. Alsatian Riesling from limestone is richer, more honeyed. Australian Riesling from Clare Valley is all lime and kerosene (yes, kerosene — it's a good thing).\n\nThe grape is ancient. First documented in 1435 in the Rheingau region of Germany. It thrives in cold climates that would kill most grapes.\n\nMaster sommeliers often say: the wine they drink at home, the one they open for themselves, is Riesling. Not Bordeaux, not Burgundy. Riesling. Because it rewards attention.`,
         funFact: 'Master sommeliers\' secret: the wine they drink at home is usually Riesling.',
+        comparison: {
+          prompt: 'Which Riesling personality?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+            label: 'Bone-dry Alsatian Riesling',
+            description: 'Steel wire and lime zest. Precision in a glass.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+            label: 'German Spätlese (off-dry)',
+            description: 'Honeyed peach, electric acidity. Sweet and sharp at once.',
+          },
+          insight: 'Dry Riesling is a scalpel. Off-dry Riesling is a paradox — sweetness and acidity in perfect tension. The grape does both equally well, which is why sommeliers can\'t stop talking about it.',
+        },
         quiz: {
           question: 'What is the biggest misconception about Riesling?',
           options: [
@@ -712,6 +1077,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `If Chardonnay is a mirror, Sauvignon Blanc is a spotlight. You know immediately what you're drinking.\n\nThe name comes from *sauvage* — wild. And it tastes it: gooseberry, grapefruit, cut grass, sometimes cat pee (winemakers call it "boxwood" to be polite). A compound called 3-MHA is responsible. It's chemically similar to a compound found in blackcurrant buds — and yes, cat urine.\n\nLoire Valley Sauvignon Blanc (Sancerre, Pouilly-Fumé) is chalky and flinty — austere in the best way. New Zealand Marlborough Sauvignon Blanc is an explosion of tropical fruit and citrus. Same grape, opposite ends of the earth, completely different wines.\n\nBlended with Sémillon and barrel-fermented in Bordeaux, it becomes something else entirely: the great dry whites of Pessac-Léognan, rich and complex.\n\nSauvignon Blanc doesn't ask for your patience. It grabs you.`,
         funFact: 'The "wild" in Sauvignon comes from *sauvage*. The grape\'s signature compound is chemically similar to cat pee.',
+        comparison: {
+          prompt: 'Which green do you reach for?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+            label: 'Loire Valley Sancerre',
+            description: 'Flinty, chalky, restrained. Green in the mineral sense.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+            label: 'Marlborough Sauvignon Blanc',
+            description: 'Tropical explosion. Passionfruit, grapefruit, cut grass.',
+          },
+          insight: 'Loire Sauvignon is a conversation — it reveals itself slowly over dinner. Marlborough Sauvignon is a declaration — you know exactly what it is on the first sip. Same grape, different philosophies of honesty.',
+        },
         quiz: {
           question: 'What does the name "Sauvignon" come from?',
           options: [
@@ -722,6 +1101,39 @@ export const courses: Course[] = [
           ],
           correctIndex: 2,
           explanation: 'Sauvignon comes from the French word *sauvage* — wild. The grape\'s vigorous growth and pungent aromatics earned it the name.',
+        },
+      },
+      {
+        id: 'wh-4',
+        title: 'Chenin Blanc — The Chameleon',
+        imageUrl: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+        imageCredit: 'Unsplash',
+        content: `No grape does more with less attention than Chenin Blanc.\n\nIn France's Loire Valley, Chenin makes bone-dry Savennières — so austere and mineral it borders on severe. Twenty miles east, the same grape makes Vouvray — which can be dry, off-dry, sparkling, or lusciously sweet, depending on the vintage and the winemaker's mood.\n\nIn South Africa, where it's called Steen, Chenin is the most planted grape. For decades it was used for cheap bulk wine. Then a new generation of winemakers started treating old-vine Chenin with the same respect Burgundy gives Chardonnay. The results stunned the wine world.\n\nChenin's secret is its acidity. Even when sweet, it never feels heavy — the acid acts like a spine, keeping everything upright. A great sweet Chenin from Bonnezeaux or Quarts de Chaume can age for a century.\n\nWine nerds call Chenin the "sommelier's grape" because it rewards obsession. Every site, every vintage, every winemaker produces something different. If you want a grape that will never bore you, start here.`,
+        funFact: 'Sweet Chenin Blanc from the Loire can age for over 100 years. The acidity keeps it alive.',
+        comparison: {
+          prompt: 'Which Chenin?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+            label: 'Dry Savennières',
+            description: 'Austere, mineral, almost severe. A wire of acid and stone.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+            label: 'Sweet Vouvray',
+            description: 'Honeyed, golden, quince and lanolin. Sweet but never heavy.',
+          },
+          insight: 'Dry Chenin tests you — it demands attention. Sweet Chenin seduces you — but that acid spine means it\'s never simple. The chameleon grape does both with equal conviction.',
+        },
+        quiz: {
+          question: 'What is Chenin Blanc called in South Africa?',
+          options: [
+            'Pinot Blanc',
+            'Steen',
+            'Colombard',
+            'White Cape',
+          ],
+          correctIndex: 1,
+          explanation: 'Chenin Blanc is known as Steen in South Africa, where it\'s the most widely planted grape. Old-vine South African Chenin is now producing some of the world\'s most exciting whites.',
         },
       },
     ],
@@ -747,6 +1159,20 @@ export const courses: Course[] = [
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome-Pantheon-Interieur1.jpg/1280px-Rome-Pantheon-Interieur1.jpg',
         content: `The Pantheon in Rome has stood for nearly 2,000 years. Its dome is still the world's largest unreinforced concrete dome. No one has surpassed it.\n\nThe interior is a perfect sphere — the dome's diameter equals the height from floor to the top of the dome. 43.3 meters each way. If you placed the dome on the floor, it would fit exactly.\n\nThe oculus — the 9-meter hole in the top of the dome — is the only source of light. When it rains, the rain falls through. There are drains in the slightly convex floor.\n\nThe Romans used a brilliant engineering trick: the concrete gets progressively lighter as it rises. Heavy basalt aggregate at the base, light volcanic pumice at the top. They were grading density 2,000 years before materials science existed.\n\nMichelangelo visited the Pantheon and said it was the work of angels, not men. When he designed St. Peter's dome, he deliberately made it slightly smaller — out of respect.`,
         funFact: 'Michelangelo made St. Peter\'s dome deliberately smaller than the Pantheon — out of respect for the ancients.',
+        comparison: {
+          prompt: 'Which dome awes you more?',
+          imageA: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rome-Pantheon-Interieur1.jpg/1280px-Rome-Pantheon-Interieur1.jpg',
+            label: 'The Pantheon, Rome',
+            description: 'An oculus open to the sky. Rain falls through. 2,000 years standing.',
+          },
+          imageB: {
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Florence_dome_of_Basilica_of_Saint_Mary_of_the_Flower.jpg/1280px-Florence_dome_of_Basilica_of_Saint_Mary_of_the_Flower.jpg',
+            label: 'Brunelleschi\'s Dome, Florence',
+            description: 'An "impossible" dome. Built without scaffolding. Sheer genius.',
+          },
+          insight: 'The Pantheon is a hole in the roof that lets the universe in. Brunelleschi\'s dome is a feat of engineering that keeps the universe out. Both are about the relationship between human space and infinite sky.',
+        },
         quiz: {
           question: 'What engineering trick makes the Pantheon\'s dome possible?',
           options: [
@@ -799,6 +1225,20 @@ export const courses: Course[] = [
         imageCredit: 'Unsplash',
         content: `Research in environmental psychology shows that ugly buildings literally make people feel worse. Heart rate, cortisol, self-reported wellbeing — all measurably affected by the buildings people occupy.\n\nThe neuroscientist Colin Ellard tested this by walking people past different facades in Manhattan. In front of a blank Whole Foods wall — a dead, windowless surface — people's physiological arousal dropped to bored, low-energy states. In front of a busy, varied street with small shops, awnings, and windows, they became alert and engaged.\n\nThe pattern is fractal complexity. Humans respond positively to surfaces with detail at every scale — large shapes containing smaller shapes containing smaller shapes still. Gothic cathedrals have this. Art Nouveau buildings have this. Brutalist car parks do not.\n\nChristopher Alexander, the architect, argued in *A Pattern Language* that beautiful spaces share universal patterns: light from two sides, alcoves for sitting, human-scaled doorways, visible life on the street.\n\nGood architecture isn't subjective luxury. It's a public health issue.`,
         funFact: 'Blank building facades measurably lower people\'s mood and energy. Varied, detailed facades raise them.',
+        comparison: {
+          prompt: 'Which building bothers you more?',
+          imageA: {
+            url: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+            label: 'Brutalist concrete block',
+            description: 'Imposing, monolithic. At least it has conviction.',
+          },
+          imageB: {
+            url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+            label: 'Generic glass tower',
+            description: 'Reflective, anonymous. Could be anywhere. Says nothing.',
+          },
+          insight: 'Brutalism at least has an opinion. The generic glass box has none — and that\'s worse. The buildings that damage us most aren\'t ugly ones; they\'re the ones that say nothing at all.',
+        },
         quiz: {
           question: 'What pattern do humans respond positively to in architecture?',
           options: [
