@@ -78,6 +78,9 @@ export function completeLesson(courseId: string, lessonId: string, quizCorrect?:
   if (!cp) return
   if (!cp.completedLessons.includes(lessonId)) cp.completedLessons.push(lessonId)
   if (quizCorrect !== undefined) cp.quizResults[lessonId] = quizCorrect
+  // Track completion timestamp for spaced recall
+  if (!cp.completedAt_map) cp.completedAt_map = {}
+  cp.completedAt_map[lessonId] = new Date().toISOString()
   save(progress)
   updateStreak()
 }
@@ -167,6 +170,33 @@ export function getCompletedLessonsNotInStable(): Array<{ lessonTitle: string; l
 export function getCompletedLessonIds(): string[] {
   const progress = getProgress()
   return Object.values(progress.courses).flatMap(c => c.completedLessons)
+}
+
+// ── Continue Learning ──
+
+export function getLastActiveCourse(): { courseId: string; lessonIndex: number } | null {
+  const progress = getProgress()
+  const courses = Object.values(progress.courses)
+  // Find most recently started, not-yet-completed course
+  const active = courses
+    .filter(c => !c.completedAt)
+    .sort((a, b) => new Date(b.startedAt).getTime() - new Date(a.startedAt).getTime())
+  if (active.length === 0) return null
+  return { courseId: active[0].courseId, lessonIndex: active[0].currentLessonIndex }
+}
+
+// ── Spaced Recall ──
+
+export function getLessonCompletionMap(): Record<string, { courseId: string; completedAt: string }> {
+  const progress = getProgress()
+  const map: Record<string, { courseId: string; completedAt: string }> = {}
+  for (const cp of Object.values(progress.courses)) {
+    if (!cp.completedAt_map) continue
+    for (const [lessonId, timestamp] of Object.entries(cp.completedAt_map)) {
+      map[lessonId] = { courseId: cp.courseId, completedAt: timestamp }
+    }
+  }
+  return map
 }
 
 // ── Stats ──

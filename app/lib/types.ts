@@ -24,6 +24,14 @@ export interface Lesson {
   funFact?: string
   quiz?: QuizQuestion
   comparison?: ComparisonQuestion  // image A vs B interactive
+  // ── Learning Science ──
+  openingQuestion?: string          // Curiosity hook — intriguing question before content
+  noticePrompt?: string             // "What do you notice?" — shown before comparison
+  deeperInsight?: string            // Richer insight shown after quiz, regardless of correctness
+  connectionTo?: {                  // Cross-domain link to another lesson
+    lessonId: string
+    insight: string
+  }
 }
 
 export interface QuizQuestion {
@@ -38,6 +46,7 @@ export interface ComparisonQuestion {
   imageA: { url: string; label: string; description: string }
   imageB: { url: string; label: string; description: string }
   insight: string  // shown after choosing
+  reflectionPrompt?: string  // "Why did you pick that?" — asked after choice
 }
 
 // ── Course Progress ──
@@ -46,9 +55,21 @@ export interface CourseProgress {
   courseId: string
   currentLessonIndex: number
   completedLessons: string[]
+  completedAt_map?: Record<string, string>  // lessonId → ISO timestamp (for spaced recall)
   quizResults: Record<string, boolean>
   startedAt: string
   completedAt?: string
+}
+
+// ── Spaced Recall ──
+
+export interface RecallCard {
+  lessonId: string
+  courseId: string
+  lessonTitle: string
+  question: string          // the quiz question or curiosity hook to resurface
+  daysSince: number
+  domain: Domain
 }
 
 // ── Taste Profile ──
