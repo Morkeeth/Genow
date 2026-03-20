@@ -43,12 +43,12 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-2',
     prompt: 'Friday evening. You\'re pouring a glass.',
     optionA: {
-      imageUrl: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+      imageUrl: '/images/wine-burgundy-light.jpg',
       label: 'Light Burgundy',
       vibe: 'Delicate, earthy, old-world',
     },
     optionB: {
-      imageUrl: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+      imageUrl: '/images/wine-napa-cabernet.jpg',
       label: 'Bold Napa Cabernet',
       vibe: 'Rich, powerful, new-world',
     },
@@ -61,12 +61,12 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-3',
     prompt: 'Which room feels more like you?',
     optionA: {
-      imageUrl: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+      imageUrl: '/images/room-minimal.jpg',
       label: 'Minimal & clean',
       vibe: 'Dieter Rams, white space, clarity',
     },
     optionB: {
-      imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+      imageUrl: '/images/room-warm-layered2.jpg',
       label: 'Warm & layered',
       vibe: 'Candlelight, texture, patina',
     },
@@ -97,12 +97,12 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-5',
     prompt: 'The craft you respect most?',
     optionA: {
-      imageUrl: 'https://images.unsplash.com/photo-1545048702-79362596cdc9?w=800&q=80',
+      imageUrl: '/images/ceramics-handthrown2.jpg',
       label: 'Hand-thrown ceramics',
       vibe: 'Imperfect, wabi-sabi, one of a kind',
     },
     optionB: {
-      imageUrl: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+      imageUrl: '/images/engineering-precision.jpg',
       label: 'Precision engineering',
       vibe: 'Exact, engineered, Swiss-watch perfection',
     },
@@ -115,12 +115,12 @@ export const tasteQuestions: TasteQuestion[] = [
     id: 'tq-6',
     prompt: 'Which weekend sounds better?',
     optionA: {
-      imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+      imageUrl: '/images/lunch-friends.jpg',
       label: 'Long lunch with old friends',
       vibe: 'Conversation, wine, no rush',
     },
     optionB: {
-      imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+      imageUrl: '/images/museum-solo.jpg',
       label: 'Solo museum morning',
       vibe: 'Quiet, contemplative, discovering',
     },

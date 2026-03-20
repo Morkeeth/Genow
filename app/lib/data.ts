@@ -108,7 +108,7 @@ export const courses: Course[] = [
             description: 'Outdoor dance, dappled sunlight, everyone smiling',
           },
           imageB: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg/1280px-Edouard_Manet%2C_A_Bar_at_the_Folies-Berg%C3%A8re.jpg',
+            url: '/images/manet-bar-folies.jpg',
             label: 'Manet — A Bar at the Folies-Bergère',
             description: 'Crowded room, distant gaze, glamorous but lonely',
           },
@@ -145,7 +145,7 @@ export const courses: Course[] = [
             description: 'Intimate, voyeuristic. Caught from the corner of the room.',
           },
           imageB: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Gustave_Caillebotte_-_Jour_de_pluie_%C3%A0_Paris.jpg/1280px-Gustave_Caillebotte_-_Jour_de_pluie_%C3%A0_Paris.jpg',
+            url: '/images/caillebotte-rainy-paris.jpg',
             label: 'Caillebotte — Paris Street, Rainy Day',
             description: 'Geometric, detached. The city as a machine of solitude.',
           },
@@ -307,7 +307,7 @@ export const courses: Course[] = [
             description: 'Fractured, symbolic. Horror abstracted into geometry.',
           },
           imageB: {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_thin_black_margin.jpg',
+            url: '/images/goya-third-may.jpg',
             label: 'Goya — The Third of May 1808',
             description: 'Figurative, raw. You see the faces. You see the guns.',
           },
@@ -337,7 +337,7 @@ export const courses: Course[] = [
     title: 'Red Grapes You Should Know',
     subtitle: 'The big four — and why they matter',
     description: 'Learn the four red grapes that make most of the world\'s great wine.',
-    imageUrl: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+    imageUrl: '/images/wine-red-pour.jpg',
     color: '#722F37',
     difficulty: 'beginner',
     estimatedMinutes: 10,
@@ -345,7 +345,7 @@ export const courses: Course[] = [
       {
         id: 'red-1',
         title: 'Cabernet Sauvignon — The King',
-        imageUrl: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+        imageUrl: '/images/wine-napa-cabernet.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the world\'s most planted grape was a complete accident — a one-night stand between two other grapes?',
         noticePrompt: 'One image feels restrained, the other feels ambitious. Which gives you more confidence before you\'ve even tasted?',
@@ -357,12 +357,12 @@ export const courses: Course[] = [
           prompt: 'Which power do you respect more?',
           reflectionPrompt: 'Do you trust the team or the soloist? That preference shows up in more than wine.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            url: '/images/wine-napa-cabernet.jpg',
             label: 'Bordeaux Cabernet — blended',
             description: 'Structured, restrained. Power through patience and tradition.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+            url: '/images/wine-region-vineyard.jpg',
             label: 'Napa Cabernet — solo',
             description: 'Bold, ripe, unapologetic. Power through intensity.',
           },
@@ -383,7 +383,7 @@ export const courses: Course[] = [
       {
         id: 'red-2',
         title: 'Pinot Noir — The Heartbreak Grape',
-        imageUrl: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+        imageUrl: '/images/wine-burgundy-light.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the most expensive wine region in the world was mapped by medieval monks who couldn\'t even drink?',
         noticePrompt: 'One image whispers. The other announces. Which one makes you lean in?',
@@ -395,12 +395,12 @@ export const courses: Course[] = [
           prompt: 'Which approach to wine appeals to you?',
           reflectionPrompt: 'Did you pick with your head or your gut? The quiet choice often reveals the deeper preference.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            url: '/images/wine-burgundy-light.jpg',
             label: 'Light Burgundy Pinot Noir',
             description: 'Delicate, earthy, centuries of tradition. Less is more.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            url: '/images/wine-napa-cabernet.jpg',
             label: 'Bold Napa Cabernet',
             description: 'Rich, powerful, unfiltered ambition. More is more.',
           },
@@ -421,7 +421,7 @@ export const courses: Course[] = [
       {
         id: 'red-3',
         title: 'Merlot — The Misunderstood One',
-        imageUrl: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+        imageUrl: '/images/wine-vineyard.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the wine a movie character mocked turned out to be the wine he loved most — and he didn\'t even know it?',
         noticePrompt: 'One feels like velvet. The other feels like a handshake. Can you tell which before reading a word?',
@@ -433,12 +433,12 @@ export const courses: Course[] = [
           prompt: 'Which side of Merlot?',
           reflectionPrompt: 'Did you choose elegance or generosity? One impresses, the other invites. Both say something about how you like to be treated.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+            url: '/images/wine-vineyard.jpg',
             label: 'Right Bank Bordeaux Merlot',
             description: 'Elegant, silky. Pomerol\'s velvet in a glass.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            url: '/images/wine-red-pour.jpg',
             label: 'New World Merlot',
             description: 'Plush, fruity, generous. Ripe plums and chocolate.',
           },
@@ -459,7 +459,7 @@ export const courses: Course[] = [
       {
         id: 'red-4',
         title: 'Syrah / Shiraz — Two Names, One Grape',
-        imageUrl: 'https://images.unsplash.com/photo-1569919659476-f0852f9186be?w=800&q=80',
+        imageUrl: '/images/wine-natural.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the grape everyone thought came from ancient Persia turned out to be two boring French parents?',
         noticePrompt: 'One image broods. The other celebrates. Same grape — notice how the energy is completely different.',
@@ -471,12 +471,12 @@ export const courses: Course[] = [
           prompt: 'Which character do you prefer?',
           reflectionPrompt: 'Introvert or extrovert? The wine you reach for often mirrors the energy you crave.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1569919659476-f0852f9186be?w=800&q=80',
+            url: '/images/wine-natural.jpg',
             label: 'Northern Rhône Syrah',
             description: 'Peppery, smoky, violets. Brooding elegance.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+            url: '/images/wine-region-vineyard.jpg',
             label: 'Barossa Valley Shiraz',
             description: 'Blackberry jam, espresso, dark chocolate. Volume at 11.',
           },
@@ -503,7 +503,7 @@ export const courses: Course[] = [
     title: 'How to Actually Taste Wine',
     subtitle: 'Look. Smell. Sip. Think.',
     description: 'A no-nonsense guide to tasting wine like a pro — without the pretension.',
-    imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+    imageUrl: '/images/museum-solo.jpg',
     color: '#880e4f',
     difficulty: 'beginner',
     estimatedMinutes: 12,
@@ -511,7 +511,7 @@ export const courses: Course[] = [
       {
         id: 'taste-1',
         title: 'Look — What Color Tells You',
-        imageUrl: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+        imageUrl: '/images/wine-red-pour.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if you could identify a wine\'s age, grape, and climate before you even smelled it?',
         noticePrompt: 'Look at the color intensity. One is opaque. The other is translucent. That difference tells a whole story.',
@@ -523,12 +523,12 @@ export const courses: Course[] = [
           prompt: 'Which glass tells you more at a glance?',
           reflectionPrompt: 'What drew you in — the drama of the dark, or the subtlety of the gold? Your eye has a preference you might not have named.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            url: '/images/wine-red-pour.jpg',
             label: 'Deep ruby — young wine',
             description: 'Opaque, purple-edged. Thick-skinned grapes, warm climate.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+            url: '/images/wine-white-glass.jpg',
             label: 'Pale gold — aged white',
             description: 'Deepened with time. Oak, age, or both.',
           },
@@ -549,7 +549,7 @@ export const courses: Course[] = [
       {
         id: 'taste-2',
         title: 'Smell — Your Secret Weapon',
-        imageUrl: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+        imageUrl: '/images/wine-burgundy-light.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if 80% of what you think you taste is actually happening in your nose?',
         noticePrompt: 'One bouquet greets you from across the table. The other makes you come to it. Which pulls you in more?',
@@ -561,12 +561,12 @@ export const courses: Course[] = [
           prompt: 'Which nose intrigues you more?',
           reflectionPrompt: 'Do you prefer being greeted or doing the discovering? That says something about every relationship you have, not just with wine.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            url: '/images/wine-napa-cabernet.jpg',
             label: 'Fruit-forward bouquet',
             description: 'Cherry, blackberry, vanilla. The wine greets you immediately.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            url: '/images/wine-burgundy-light.jpg',
             label: 'Earthy, terroir-driven',
             description: 'Wet stone, mushroom, forest floor. You have to go looking.',
           },
@@ -587,7 +587,7 @@ export const courses: Course[] = [
       {
         id: 'taste-3',
         title: 'Sip — The Structure of Wine',
-        imageUrl: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+        imageUrl: '/images/wine-vineyard.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why does tannin make your mouth feel exactly like over-steeped tea — and why is that a good thing?',
         noticePrompt: 'Imagine holding each glass. One grips. The other lifts. Feel the difference before you read.',
@@ -599,12 +599,12 @@ export const courses: Course[] = [
           prompt: 'Which structure do you prefer in your glass?',
           reflectionPrompt: 'Grip or lift? Your body knew the answer before your brain did. Trust that.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1569919659476-f0852f9186be?w=800&q=80',
+            url: '/images/wine-natural.jpg',
             label: 'Bold, tannic red',
             description: 'Gripping, drying, powerful. Demands food and patience.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+            url: '/images/bread-sourdough.jpg',
             label: 'Crisp, high-acid white',
             description: 'Electric, mouth-watering, refreshing. Demands nothing but attention.',
           },
@@ -625,7 +625,7 @@ export const courses: Course[] = [
       {
         id: 'taste-4',
         title: 'Think — What to Say About Wine',
-        imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+        imageUrl: '/images/museum-solo.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'The most influential wine critic in history was a lawyer with zero training. What did he know that the experts didn\'t?',
         noticePrompt: 'Read both tasting notes. One is precise. The other is useful. Which one would actually help you pick a wine?',
@@ -637,12 +637,12 @@ export const courses: Course[] = [
           prompt: 'Which tasting note do you trust more?',
           reflectionPrompt: 'Be honest — did you pick the one that sounds smarter, or the one that\'s actually more useful? There\'s a gap there worth noticing.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+            url: '/images/museum-solo.jpg',
             label: '"Pencil shavings, wet gravel, grandmother\'s attic"',
             description: 'Poetic, specific, possibly showing off.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            url: '/images/wine-red-pour.jpg',
             label: '"A big, chewy red with dark fruit. I\'d drink this again."',
             description: 'Plain, honest, useful. You know what you\'re getting.',
           },
@@ -672,7 +672,7 @@ export const courses: Course[] = [
     title: 'Design That Changed the World',
     subtitle: 'Ideas that shaped how we live',
     description: 'From Bauhaus to Apple — the design movements that defined modern life.',
-    imageUrl: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+    imageUrl: '/images/room-minimal.jpg',
     color: '#37474f',
     difficulty: 'beginner',
     estimatedMinutes: 10,
@@ -680,7 +680,7 @@ export const courses: Course[] = [
       {
         id: 'des-1',
         title: 'Bauhaus — Where Art Met Industry',
-        imageUrl: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+        imageUrl: '/images/engineering-precision.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if a school that lasted only 14 years — and was shut down by Nazis — designed the visual language you use every single day?',
         noticePrompt: 'One strips away. The other adds on. Which feels more honest to you?',
@@ -692,12 +692,12 @@ export const courses: Course[] = [
           prompt: 'Which revolution in design?',
           reflectionPrompt: 'Are you drawn to simplicity or richness? That preference shapes every room you walk into and every screen you build.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+            url: '/images/engineering-precision.jpg',
             label: 'Bauhaus — clean geometric form',
             description: 'Strip away. Function is beauty. Less is the answer.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: 'Art Nouveau — organic ornament',
             description: 'Nature as design. Every surface alive with flowing line.',
           },
@@ -718,7 +718,7 @@ export const courses: Course[] = [
       {
         id: 'des-2',
         title: 'Dieter Rams — Less, But Better',
-        imageUrl: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+        imageUrl: '/images/room-minimal.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'The iPhone in your pocket is a reply to a conversation that started in a 1960s German electronics factory. Who started it?',
         noticePrompt: 'Sixty years separate these two objects. Can you tell which came first? That\'s the point.',
@@ -730,12 +730,12 @@ export const courses: Course[] = [
           prompt: 'Which simplicity?',
           reflectionPrompt: 'Did you prefer the original or the reply? That tells you whether you value origin or evolution.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+            url: '/images/room-minimal.jpg',
             label: 'Braun — Rams\'s original',
             description: '1960s purity. Every element earns its place.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+            url: '/images/engineering-precision.jpg',
             label: 'Apple — Ive\'s response',
             description: 'Decades later, the conversation continues in aluminum and glass.',
           },
@@ -756,7 +756,7 @@ export const courses: Course[] = [
       {
         id: 'des-3',
         title: 'Wabi-Sabi — Beauty in Imperfection',
-        imageUrl: 'https://images.unsplash.com/photo-1545048702-79362596cdc9?w=800&q=80',
+        imageUrl: '/images/ceramics-handthrown2.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if breaking something could make it more beautiful than it was before?',
         noticePrompt: 'One object celebrates its imperfections. The other eliminates them. Which one holds your attention longer?',
@@ -768,12 +768,12 @@ export const courses: Course[] = [
           prompt: 'Which object has more beauty?',
           reflectionPrompt: 'What drew you in — the warmth of the imperfect, or the thrill of the precise? Your answer reveals what you consider authentic.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1545048702-79362596cdc9?w=800&q=80',
+            url: '/images/ceramics-handthrown2.jpg',
             label: 'Hand-thrown ceramic bowl',
             description: 'Irregular, organic, one of a kind. Each imperfection is intentional.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1545060894-7843d1d0ae0e?w=800&q=80',
+            url: '/images/engineering-precision.jpg',
             label: 'Precision-machined steel',
             description: 'Perfect, repeatable, mathematically exact. Zero tolerance for error.',
           },
@@ -800,7 +800,7 @@ export const courses: Course[] = [
     title: 'Social Intelligence',
     subtitle: 'The unwritten rules',
     description: 'How to hold a room, read a table, and never be the boring one at dinner.',
-    imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+    imageUrl: '/images/lunch-friends.jpg',
     color: '#1565c0',
     difficulty: 'beginner',
     estimatedMinutes: 15,
@@ -808,7 +808,7 @@ export const courses: Course[] = [
       {
         id: 'soc-1',
         title: 'The Art of Conversation',
-        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageUrl: '/images/lunch-friends.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why are the best conversationalists almost never the people doing most of the talking?',
         noticePrompt: 'One table is about depth. The other is about energy. Which one would you dread leaving more?',
@@ -820,12 +820,12 @@ export const courses: Course[] = [
           prompt: 'Which table would you rather sit at?',
           reflectionPrompt: 'Did you choose depth or energy? That tells you what you\'re hungry for right now — and it might change tomorrow.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: 'Intimate dinner for four',
             description: 'Candlelight, close quarters. Every word lands.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: 'Long table with friends',
             description: 'Laughter, chaos, cross-talk. Energy everywhere.',
           },
@@ -846,7 +846,7 @@ export const courses: Course[] = [
       {
         id: 'soc-2',
         title: 'Reading the Room',
-        imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+        imageUrl: '/images/room-warm-layered2.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if your knife and fork have been talking to the waiter all evening — and you didn\'t know it?',
         noticePrompt: 'One setting has invisible rules. The other has none. Which one actually makes you more comfortable?',
@@ -858,12 +858,12 @@ export const courses: Course[] = [
           prompt: 'Which setting feels more like you?',
           reflectionPrompt: 'Did you pick structure or freedom? The irony is that true freedom at a table often requires the most structure behind the scenes.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: 'Formal reception',
             description: 'Place cards, protocol, silverware signals. Every detail speaks.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: 'Garden gathering',
             description: 'No assigned seats, no rules. The host just makes everyone comfortable.',
           },
@@ -884,7 +884,7 @@ export const courses: Course[] = [
       {
         id: 'soc-3',
         title: 'The Art of the Question',
-        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageUrl: '/images/lunch-friends.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why does asking someone "what do you do?" never lead anywhere interesting — and what question should you ask instead?',
         noticePrompt: 'One question sorts people into categories. The other finds what makes them light up. Read both and feel the difference.',
@@ -896,12 +896,12 @@ export const courses: Course[] = [
           prompt: 'Which question opens more doors?',
           reflectionPrompt: 'Which question would you rather be asked? That\'s the one you should be asking others.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: '"What do you do for work?"',
             description: 'Safe, standard. Everyone asks it. Gets a job title, not a person.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: '"What are you most excited about right now?"',
             description: 'Unexpected. Gets passion instead of a résumé.',
           },
@@ -922,7 +922,7 @@ export const courses: Course[] = [
       {
         id: 'soc-4',
         title: 'Graceful Exits and Memorable Goodbyes',
-        imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+        imageUrl: '/images/museum-solo.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why do psychologists say the last 30 seconds of an evening determine how you remember the entire night?',
         noticePrompt: 'One exit is about you. The other is about everyone you\'re leaving behind. Which lands better?',
@@ -934,12 +934,12 @@ export const courses: Course[] = [
           prompt: 'Which exit is more your style?',
           reflectionPrompt: 'Do you protect your energy or invest it? That instinct shapes more than just how you leave parties.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: 'The Irish Goodbye',
             description: 'Just vanish. No fuss, no ceremony. Efficient and mysterious.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: 'The Grand Farewell',
             description: 'Find the host. Say something specific. Leave a lasting impression.',
           },
@@ -1134,7 +1134,7 @@ export const courses: Course[] = [
     title: 'White Grapes That Matter',
     subtitle: 'The other half of the story',
     description: 'Chardonnay, Riesling, Sauvignon Blanc, Chenin Blanc — the whites that built empires.',
-    imageUrl: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+    imageUrl: '/images/wine-white-glass.jpg',
     color: '#f9a825',
     difficulty: 'beginner',
     estimatedMinutes: 15,
@@ -1142,7 +1142,7 @@ export const courses: Course[] = [
       {
         id: 'wh-1',
         title: 'Chardonnay — The Shape-Shifter',
-        imageUrl: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+        imageUrl: '/images/wine-white-glass.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the world\'s most popular white grape has almost no flavor of its own?',
         noticePrompt: 'One glass looks lean. The other looks golden. Same grape. Let that sink in before you choose.',
@@ -1154,12 +1154,12 @@ export const courses: Course[] = [
           prompt: 'Which style of Chardonnay appeals more?',
           reflectionPrompt: 'Purist or sensualist? This isn\'t just about wine — it\'s about whether you trust simplicity or complexity to tell the truth.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+            url: '/images/wine-white-glass.jpg',
             label: 'Unoaked Chablis',
             description: 'Steel, chalk, lemon. Clean and mineral. The purist\'s choice.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+            url: '/images/wine-cellar.jpg',
             label: 'Barrel-aged Meursault',
             description: 'Golden, creamy, hazelnut. Rich and layered. The sensualist\'s choice.',
           },
@@ -1180,7 +1180,7 @@ export const courses: Course[] = [
       {
         id: 'wh-2',
         title: 'Riesling — The Underestimated Noble',
-        imageUrl: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+        imageUrl: '/images/bread-sourdough.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why do master sommeliers — people who can afford any wine on earth — drink Riesling at home?',
         noticePrompt: 'One is a scalpel. The other is a paradox. Feel the tension between sharpness and sweetness before you pick.',
@@ -1192,12 +1192,12 @@ export const courses: Course[] = [
           prompt: 'Which Riesling personality?',
           reflectionPrompt: 'Sharp or sweet? If you picked dry, you trust clarity. If you picked off-dry, you enjoy contradiction. Both are valid ways of navigating the world.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+            url: '/images/bread-sourdough.jpg',
             label: 'Bone-dry Alsatian Riesling',
             description: 'Steel wire and lime zest. Precision in a glass.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+            url: '/images/wine-cellar.jpg',
             label: 'German Spätlese (off-dry)',
             description: 'Honeyed peach, electric acidity. Sweet and sharp at once.',
           },
@@ -1218,7 +1218,7 @@ export const courses: Course[] = [
       {
         id: 'wh-3',
         title: 'Sauvignon Blanc — The Lightning Bolt',
-        imageUrl: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+        imageUrl: '/images/wine-vineyard.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if a grape\'s signature aroma is chemically identical to cat pee — and sommeliers consider that a feature?',
         noticePrompt: 'One glass is restrained, the other is an explosion. Which energy do you want at your table tonight?',
@@ -1230,12 +1230,12 @@ export const courses: Course[] = [
           prompt: 'Which green do you reach for?',
           reflectionPrompt: 'Conversation or declaration? Your choice reveals whether you like to discover or be told. Neither is better.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+            url: '/images/wine-vineyard.jpg',
             label: 'Loire Valley Sancerre',
             description: 'Flinty, chalky, restrained. Green in the mineral sense.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1474722883778-792e7990302f?w=800&q=80',
+            url: '/images/wine-white-glass.jpg',
             label: 'Marlborough Sauvignon Blanc',
             description: 'Tropical explosion. Passionfruit, grapefruit, cut grass.',
           },
@@ -1256,7 +1256,7 @@ export const courses: Course[] = [
       {
         id: 'wh-4',
         title: 'Chenin Blanc — The Chameleon',
-        imageUrl: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+        imageUrl: '/images/wine-cellar.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if a grape dismissed as cheap bulk wine in South Africa turned out to produce some of the most exciting whites on earth?',
         noticePrompt: 'One is severe. The other is seductive. Both are the same grape. Let that contradiction settle before choosing.',
@@ -1268,12 +1268,12 @@ export const courses: Course[] = [
           prompt: 'Which Chenin?',
           reflectionPrompt: 'Did you pick the challenge or the pleasure? That choice says something about what you value in any experience, not just wine.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1558001373-7b93ee48ffa0?w=800&q=80',
+            url: '/images/bread-sourdough.jpg',
             label: 'Dry Savennières',
             description: 'Austere, mineral, almost severe. A wire of acid and stone.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1566995541428-f4e9e3a6a712?w=800&q=80',
+            url: '/images/wine-cellar.jpg',
             label: 'Sweet Vouvray',
             description: 'Honeyed, golden, quince and lanolin. Sweet but never heavy.',
           },
@@ -1303,7 +1303,7 @@ export const courses: Course[] = [
     title: 'Buildings That Changed Thinking',
     subtitle: 'Architecture as philosophy',
     description: 'The buildings that didn\'t just shelter us — they changed how we see the world.',
-    imageUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+    imageUrl: '/images/phone-camera.jpg',
     color: '#4e342e',
     difficulty: 'beginner',
     estimatedMinutes: 10,
@@ -1348,7 +1348,7 @@ export const courses: Course[] = [
       {
         id: 'arch-2',
         title: 'Tadao Ando — Concrete, Light, and Silence',
-        imageUrl: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+        imageUrl: '/images/room-minimal.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the greatest living architect was a self-taught boxer who never attended a single architecture class?',
         noticePrompt: 'One space is ancient grandeur. The other is modern emptiness. Which one makes you breathe differently?',
@@ -1365,7 +1365,7 @@ export const courses: Course[] = [
             description: 'Ancient grandeur. An oculus open to the sky. 2,000 years of awe.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?w=800&q=80',
+            url: '/images/room-minimal.jpg',
             label: 'Modern minimalist space',
             description: 'Raw concrete, controlled light. Nothing except what matters.',
           },
@@ -1386,7 +1386,7 @@ export const courses: Course[] = [
       {
         id: 'arch-3',
         title: 'Why Ugly Buildings Hurt',
-        imageUrl: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+        imageUrl: '/images/architecture-modern.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the buildings you walk past every day are measurably making you feel worse — and nobody told you?',
         noticePrompt: 'One building has an opinion. The other has nothing to say. Which bothers you more? The answer might surprise you.',
@@ -1398,12 +1398,12 @@ export const courses: Course[] = [
           prompt: 'Which building bothers you more?',
           reflectionPrompt: 'What bothers you more — conviction you disagree with, or indifference? That pattern shows up everywhere, not just in buildings.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+            url: '/images/architecture-modern.jpg',
             label: 'Brutalist concrete block',
             description: 'Imposing, monolithic. At least it has conviction.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80',
+            url: '/images/phone-camera.jpg',
             label: 'Generic glass tower',
             description: 'Reflective, anonymous. Could be anywhere. Says nothing.',
           },
@@ -1494,7 +1494,7 @@ export const courses: Course[] = [
             description: 'Controlled, pre-visualized. Every tone deliberate. Drama through restraint.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80',
+            url: '/images/architecture-mountain.jpg',
             label: 'Modern color landscape',
             description: 'Saturated, immediate, emotional. Let the color do the work.',
           },
@@ -1515,7 +1515,7 @@ export const courses: Course[] = [
       {
         id: 'photo-3',
         title: 'Cindy Sherman — Becoming Everyone',
-        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageUrl: '/images/lunch-friends.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'How can someone photograph only themselves for 50 years and never once take a self-portrait?',
         noticePrompt: 'One reveals a person. The other reveals a type. Which portrait makes you more curious about who\'s actually there?',
@@ -1532,7 +1532,7 @@ export const courses: Course[] = [
             description: 'A real person seen through a painter\'s eye. Intimate, quiet.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: 'A constructed character',
             description: 'A type, not a person. Who we expect to see, not who is there.',
           },
@@ -1553,7 +1553,7 @@ export const courses: Course[] = [
       {
         id: 'photo-4',
         title: 'Why Your Phone Isn\'t a Camera',
-        imageUrl: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80',
+        imageUrl: '/images/camera-vintage.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'We take more photographs in two minutes than all of humanity took in the entire 1800s. Are any of them worth looking at twice?',
         noticePrompt: 'One image was chosen. The other was captured. Feel the difference — it\'s in the weight of the frame.',
@@ -1565,12 +1565,12 @@ export const courses: Course[] = [
           prompt: 'Which is a photograph?',
           reflectionPrompt: 'When was the last time you stopped to really look at something before photographing it? That pause is the whole lesson.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80',
+            url: '/images/camera-vintage.jpg',
             label: 'A deliberate composition',
             description: 'Chosen moment, considered frame. Someone decided this mattered.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+            url: '/images/architecture-modern.jpg',
             label: 'A quick snapshot',
             description: 'Point, shoot, scroll past. Technically perfect, emotionally empty.',
           },
@@ -1600,7 +1600,7 @@ export const courses: Course[] = [
     title: 'Wine Regions That Matter',
     subtitle: 'The soil is the story',
     description: 'Burgundy, Bordeaux, the New World — why where a grape grows changes everything.',
-    imageUrl: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+    imageUrl: '/images/wine-region-vineyard.jpg',
     color: '#4a148c',
     difficulty: 'intermediate',
     estimatedMinutes: 14,
@@ -1608,7 +1608,7 @@ export const courses: Course[] = [
       {
         id: 'reg-1',
         title: 'Burgundy — Where Terroir Was Born',
-        imageUrl: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+        imageUrl: '/images/wine-burgundy-light.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'How can two vineyards separated by a dirt path produce wines that cost ten times differently — same grape, same year, same winemaker?',
         noticePrompt: 'One image says the land speaks. The other says the winemaker speaks. Which story do you believe before you even taste?',
@@ -1620,12 +1620,12 @@ export const courses: Course[] = [
           prompt: 'Which matters more to you?',
           reflectionPrompt: 'Nature or nurture? This is the oldest argument in wine — and in everything else. Your instinct here says something about how you see the world.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            url: '/images/wine-burgundy-light.jpg',
             label: 'The vineyard — terroir',
             description: 'The grape is just a messenger. The soil writes the message.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            url: '/images/wine-red-pour.jpg',
             label: 'The winemaker — craft',
             description: 'Great terroir is wasted without great hands. The maker shapes everything.',
           },
@@ -1646,7 +1646,7 @@ export const courses: Course[] = [
       {
         id: 'reg-2',
         title: 'Bordeaux — The Business of Great Wine',
-        imageUrl: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+        imageUrl: '/images/wine-napa-cabernet.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if a ranking created for a 19th-century trade fair became the most durable brand hierarchy in any industry on earth — and barely changed in 170 years?',
         noticePrompt: 'One label promises patience. The other promises pleasure. You can feel the difference before reading a word.',
@@ -1658,12 +1658,12 @@ export const courses: Course[] = [
           prompt: 'Which side of Bordeaux?',
           reflectionPrompt: 'Patience or curiosity? Cathedral or garden? Your preference reveals how you relate to time itself.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&q=80',
+            url: '/images/wine-napa-cabernet.jpg',
             label: 'Left Bank — Cabernet-led',
             description: 'Structured, cerebral, built to age 30 years. Patience required.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=800&q=80',
+            url: '/images/wine-vineyard.jpg',
             label: 'Right Bank — Merlot-led',
             description: 'Plush, generous, drinkable young. Pleasure now.',
           },
@@ -1684,7 +1684,7 @@ export const courses: Course[] = [
       {
         id: 'reg-3',
         title: 'The New World — When Rules Don\'t Apply',
-        imageUrl: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+        imageUrl: '/images/wine-region-vineyard.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What happened when French wine judges unknowingly crowned American wines as better than their own Grand Crus?',
         noticePrompt: 'One label tells you where it\'s from. The other tells you what it is. Notice which one you trust more — and why.',
@@ -1696,12 +1696,12 @@ export const courses: Course[] = [
           prompt: 'Which label do you reach for?',
           reflectionPrompt: 'Tradition or innovation? Where you instinctively reach reveals whether you trust history or ambition more. Both have earned it.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&q=80',
+            url: '/images/wine-burgundy-light.jpg',
             label: 'Old World — tradition',
             description: 'Region on the label. Centuries of rules. The land speaks.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80',
+            url: '/images/wine-region-vineyard.jpg',
             label: 'New World — innovation',
             description: 'Grape on the label. Rules are suggestions. The winemaker speaks.',
           },
@@ -1722,7 +1722,7 @@ export const courses: Course[] = [
       {
         id: 'reg-4',
         title: 'Natural Wine — Revolution or Chaos?',
-        imageUrl: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+        imageUrl: '/images/museum-solo.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if the most controversial wine movement has no legal definition — and that\'s both its superpower and its fatal flaw?',
         noticePrompt: 'One glass is clear and predictable. The other is cloudy and alive. Which one makes you more curious — and which makes you more nervous?',
@@ -1734,12 +1734,12 @@ export const courses: Course[] = [
           prompt: 'Which glass would you pick up?',
           reflectionPrompt: 'Safety or adventure? Your answer reveals how much uncertainty you enjoy — in wine and in everything else.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&q=80',
+            url: '/images/wine-red-pour.jpg',
             label: 'Conventional — clear, polished',
             description: 'Predictable, stable, crafted. You know what you\'re getting.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1547595628-c61a32ede2e3?w=800&q=80',
+            url: '/images/museum-solo.jpg',
             label: 'Natural — cloudy, alive',
             description: 'Unpredictable, fragile, wild. You might love it. You might not.',
           },
@@ -1769,7 +1769,7 @@ export const courses: Course[] = [
     title: 'The Art of the Table',
     subtitle: 'How you eat matters as much as what you eat',
     description: 'From Japanese kaiseki to French bistros — why the ritual of eating is a craft in itself.',
-    imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+    imageUrl: '/images/room-warm-layered2.jpg',
     color: '#bf360c',
     difficulty: 'beginner',
     estimatedMinutes: 14,
@@ -1777,7 +1777,7 @@ export const courses: Course[] = [
       {
         id: 'tab-1',
         title: 'Setting the Table — Why Ritual Matters',
-        imageUrl: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+        imageUrl: '/images/room-warm-layered2.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why does a Japanese chef put an odd number of items on every plate — and why would an even number feel wrong?',
         noticePrompt: 'One table honors the season. The other honors the guest. Look at both and ask: which kind of attention do you value more?',
@@ -1789,12 +1789,12 @@ export const courses: Course[] = [
           prompt: 'Which table calls to you?',
           reflectionPrompt: 'Do you orient toward nature or toward people? Kaiseki looks outward to the season. French service looks inward to the guest. Both are generous.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: 'Japanese kaiseki',
             description: 'Seasonal, asymmetric, every plate chosen for this moment.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: 'French bistro',
             description: 'White tablecloth, proper settings, wine already poured.',
           },
@@ -1815,7 +1815,7 @@ export const courses: Course[] = [
       {
         id: 'tab-2',
         title: 'The Lost Art of Hosting',
-        imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+        imageUrl: '/images/lunch-friends.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why did Julia Child deliberately make mistakes at her dinner parties — and why did it make everyone love her more?',
         noticePrompt: 'One dinner is curated. The other is collaborative. Which one would make you feel more welcome — and which would impress you more?',
@@ -1827,12 +1827,12 @@ export const courses: Course[] = [
           prompt: 'Which hosting style is more you?',
           reflectionPrompt: '"I did this for you" vs. "let\'s do this together." Which form of generosity is yours? The answer probably shows up in your friendships too.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80',
+            url: '/images/room-warm-layered2.jpg',
             label: 'Formal dinner — everything curated',
             description: 'Place cards, courses, proper wine for each dish.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80',
+            url: '/images/lunch-friends.jpg',
             label: 'Kitchen party — everyone cooks',
             description: 'No plan, everyone involved, wine already open.',
           },
@@ -1853,7 +1853,7 @@ export const courses: Course[] = [
       {
         id: 'tab-3',
         title: 'Coffee, Tea, and the Third Place',
-        imageUrl: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80',
+        imageUrl: '/images/coffee-cup.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'Why does the Japanese tea room have a deliberately low door — and what does forcing everyone to bow have to do with good espresso?',
         noticePrompt: 'One ritual takes four minutes. The other takes ninety. Both are organized around a hot beverage. Which one teaches more?',
@@ -1865,12 +1865,12 @@ export const courses: Course[] = [
           prompt: 'Which ritual of attention?',
           reflectionPrompt: 'Brief and complete, or long and unfolding? How you prefer to pay attention says something about how you prefer to live.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80',
+            url: '/images/coffee-cup.jpg',
             label: 'Italian espresso bar',
             description: 'Three sips, four minutes, standing. Ritual compressed to its essence.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1545048702-79362596cdc9?w=800&q=80',
+            url: '/images/ceramics-handthrown2.jpg',
             label: 'Japanese tea ceremony',
             description: '90 minutes. Every gesture matters. Silence as communication.',
           },
@@ -1891,7 +1891,7 @@ export const courses: Course[] = [
       {
         id: 'tab-4',
         title: 'Bread — The First Technology',
-        imageUrl: 'https://images.unsplash.com/photo-1549931319-a545753467c8?w=800&q=80',
+        imageUrl: '/images/wine-tasting-notes.jpg',
         imageCredit: 'Unsplash',
         openingQuestion: 'What if we didn\'t invent farming to survive — but to bake more bread?',
         noticePrompt: 'One bread is alive — different every time, shaped by place. The other is engineered — identical, optimized for scale. Which one do you want to tear apart?',
@@ -1903,12 +1903,12 @@ export const courses: Course[] = [
           prompt: 'Which bread?',
           reflectionPrompt: 'Craft or scale? That\'s not just a bread question. It\'s the question of the modern world — and your answer shapes what you build, buy, and believe in.',
           imageA: {
-            url: 'https://images.unsplash.com/photo-1549931319-a545753467c8?w=800&q=80',
+            url: '/images/wine-tasting-notes.jpg',
             label: 'Sourdough — slow fermentation',
             description: '14,000 years of tradition. Wild yeast, time, hands. Different every time.',
           },
           imageB: {
-            url: 'https://images.unsplash.com/photo-1486718448742-163732cd1544?w=800&q=80',
+            url: '/images/architecture-modern.jpg',
             label: 'Industrial — engineered perfection',
             description: 'Identical, stable, available. Optimized for scale, not soul.',
           },
