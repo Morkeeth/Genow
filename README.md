@@ -1,4 +1,4 @@
-# Genow ;  Made by Humans
+# Genow: Made by Humans
 
 ## TLDR
 
